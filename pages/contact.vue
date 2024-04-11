@@ -139,6 +139,7 @@
                 </div>
               </div>
               <div class="mt-8 flex justify-end">
+                <div class="cf-turnstile" data-sitekey="0x4AAAAAAAW6xt42NVIDh3j8"></div>
                 <button
                   type="submit"
                   class="inline-block w-[100%] sm:w-[40%] rounded-md bg-theme-dark text-sm font-medium text-center text-white py-3"
