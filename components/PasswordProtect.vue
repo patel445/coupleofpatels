@@ -2,30 +2,97 @@
   <div v-if="!authenticated">
     <div class="container">
       <Header />
-      <main class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:py-16">
-        <div class="prose sm:prose-lg">
-          <h3 class="font-semibold leading-6 pb-3">
-            Please Enter Password to Access This Page
-          </h3>
-          <form class="sm:flex sm:items-center">
-            <div class="w-full sm:max-w-xs">
-              <label for="email" class="sr-only">Email</label>
-              <input
-                v-model="inputPassword"
-                type="text"
-                placeholder="Enter password"
-                class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
-            </div>
-            <button
-              @click="checkPassword"
-              class="inline-block w-full sm:w-auto items-center justify-center rounded-md px-10 py-2 sm:ml-3 mt-4 sm:mt-0 font-semibold text-sm text-white shadow-sm bg-theme-dark"
+      <div class="relative isolate">
+        <div class="max-w-custom-container mx-auto">
+          <div class="relative lg:static">
+            <div
+              class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-zinc-100 ring-1 ring-zinc-900/10"
             >
-              Enter
-            </button>
-          </form>
+              <svg
+                class="absolute inset-0 h-full w-full stroke-zinc-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                aria-hidden="true"
+              >
+                <defs>
+                  <pattern
+                    id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527"
+                    width="200"
+                    height="200"
+                    x="100%"
+                    y="-1"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <path d="M130 200V.5M.5 .5H200" fill="none" />
+                  </pattern>
+                </defs>
+                <rect
+                  width="100%"
+                  height="100%"
+                  stroke-width="0"
+                  fill="white"
+                />
+                <svg x="100%" y="-1" class="overflow-visible fill-zinc-50">
+                  <path d="M-470.5 0h201v201h-201Z" stroke-width="0" />
+                </svg>
+                <rect
+                  width="100%"
+                  height="100%"
+                  stroke-width="0"
+                  fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
+                />
+              </svg>
+            </div>
+            <main class="px-6 md:px-8 py-20 md:py-28">
+              <div class="flex min-h-full flex-1 flex-col justify-center">
+                <div class="sm:mx-auto sm:w-full sm:max-w-[480px]">
+                  <div
+                    class="bg-white px-8 py-12 sm:px-16 sm:py-16 shadow-xl rounded-lg"
+                  >
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                      Please Enter Password to Access This Page
+                    </h2>
+                    <form class="mt-6 space-y-6">
+                      <div>
+                        <label
+                          for="email"
+                          class="block text-base font-medium leading-6"
+                          >Password:</label
+                        >
+                        <div class="mt-2">
+                          <input
+                            v-model="inputPassword"
+                            type="text"
+                            placeholder="Enter password"
+                            class="block w-full rounded-md border-0 p-3 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
+                          />
+                        </div>
+                      </div>
+
+                      <div>
+                        <button
+                          @click="checkPassword"
+                          class="flex w-full justify-center px-3 py-2.5 text-sm text-white font-semibold leading-6 shadow-sm rounded-md bg-theme-dark"
+                        >
+                          Enter Page
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+
+                  <p class="mt-10 text-center text-sm">
+                    Why partner with us?
+                    <a
+                      href="/portfolio"
+                      class="font-semibold leading-6 text-primary-hover"
+                    >
+                      Learn why now!</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </main>
+          </div>
         </div>
-      </main>
+      </div>
       <Footer />
     </div>
   </div>
@@ -39,13 +106,21 @@ import { ref } from "vue";
 
 const inputPassword = ref("");
 const authenticated = ref(false);
-const password = "patels";
+const config = useRuntimeConfig();
+const passwords = config.public.secretPasswords ? config.public.secretPasswords.split(', ') : '';
+
+if (typeof window !== 'undefined') {
+    if (sessionStorage.getItem('isAuth')) {
+        authenticated.value = true;
+    }
+}
 
 function checkPassword() {
-  if (inputPassword.value === password) {
-    authenticated.value = true;
+  if (passwords.includes(inputPassword.value)) {
+    sessionStorage.setItem("isAuth", true);
   } else {
     alert("Incorrect Password. Please try again");
   }
 }
+
 </script>

@@ -4,7 +4,7 @@
       <div class="overflow-hidden">
         <div class="container">
           <Header />
-          <div class="space-y-20 md:space-y-28 py-8 md:py-16">
+          <div class="space-y-20 md:space-y-28 py-8 md:py-20">
             <div class="max-w-custom-container mx-auto px-6 md:px-8">
               <div class="prose sm:prose-lg pb-12 md:pb-16">
                 <h1 class="tracking-tight">Experience Collabs</h1>

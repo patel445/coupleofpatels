@@ -2,7 +2,7 @@
   <div class="container">
     <Header />
     <main
-      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:py-16"
+      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:py-20"
     >
       <div
         class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 md:mx-0 md:max-w-none md:grid-cols-2"

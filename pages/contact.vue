@@ -6,7 +6,7 @@
         <div
           class="max-w-custom-container mx-auto grid grid-cols-1 md:grid-cols-2"
         >
-          <div class="relative lg:static px-6 md:px-8 py-8 md:py-16">
+          <div class="relative lg:static px-6 md:px-8 py-8 md:py-20">
             <div
               class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-zinc-100 ring-1 ring-zinc-900/10 lg:w-1/2"
             >
@@ -71,7 +71,7 @@
               with all the specifics. We're looking forward to hearing from you!
             </p>
           </div>
-          <form method="POST"  class="px-6 md:px-8 py-8 md:py-16">
+          <form method="POST"  class="px-6 md:px-8 py-8 md:py-20">
             <div class="mx-auto">
               <div class="elfsight-app-086d227a-e4a1-4668-ae02-023bcabc38ea" data-elfsight-app-lazy></div>
             </div>

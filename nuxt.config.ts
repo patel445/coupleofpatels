@@ -11,5 +11,10 @@ export default defineNuxtConfig({
     head: {
       script: [{ src: 'https://static.elfsight.com/platform/platform.js', defer: true}],
     },
-  }
+  },
+  runtimeConfig: {
+    public: {
+      secretPasswords: process.env.SECRET_KEYS, 
+    }
+  },
 })
