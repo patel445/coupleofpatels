@@ -2,7 +2,7 @@
   <div class="overflow-hidden">
     <div class="container">
       <Header />
-      <main class="space-y-20 md:space-y-28">
+      <main class="space-y-24 md:space-y-36">
         <section id="hero">
           <div class="relative">
             <div class="relative z-10 md:w-full md:max-w-xl lg:max-w-2xl">

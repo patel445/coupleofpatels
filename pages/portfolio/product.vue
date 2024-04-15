@@ -4,9 +4,9 @@
       <div class="overflow-hidden">
         <div class="container">
           <Header />
-          <div class="space-y-20 md:space-y-28 py-8 md:py-20">
+          <div class="space-y-24 md:space-y-36 py-8 md:py-20">
             <div class="max-w-custom-container mx-auto px-6 md:px-8">
-              <div class="prose sm:prose-lg pb-12 md:pb-16">
+              <div class="prose sm:prose-lg pb-12 md:pb-20">
                 <h1 class="tracking-tight">Product Collabs</h1>
                 <p class="leading-8 sm:max-w-3xl">
                   Hey there! We're Jay and Himani, the couple behind

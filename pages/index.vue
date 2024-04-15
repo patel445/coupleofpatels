@@ -33,7 +33,7 @@
       </svg>
     </section>
     <main
-      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pb-16 space-y-20 md:space-y-28"
+      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pb-16 space-y-24 md:space-y-36"
     >
       <section id="homepage-hero">
         <div class="overflow-hidden">
