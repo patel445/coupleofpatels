@@ -10,7 +10,7 @@
       <a href="/" class="mt-1">
         <span class="sr-only">Couple of Patels</span>
         <img
-          class="h-8 lg:h-10"
+          class="h-8 md:h-9"
           src="/logosite.png"
           alt="couple of patels logo"
         />
@@ -62,7 +62,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <img
-                  class="h-8 lg:h-10 w-auto"
+                  class="h-8 md:h-9 w-auto"
                   src="/logosite.png"
                   alt="couple of patels logo"
                 />
