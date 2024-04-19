@@ -1,4 +1,33 @@
 <template>
+    <Head>
+    <Title>Couple of Patels | Stay Portfolio</Title>
+    <Meta
+      name="description"
+      content="We love using our platform to help promote stays like yours gain more visibility and increased traffic."
+    />
+    <Link
+      rel="canonical"
+      href="https://coupleofpatels.com/portfolio/stays"
+    />
+    <Meta property="og:title" content="Couple of Patels | Stay Portfolio" />
+    <Meta
+      property="og:description"
+      content="We love using our platform to help promote stays like yours gain more visibility and increased traffic."
+    />
+    <Meta
+      property="og:url"
+      content="https://coupleofpatels.com/portfolio/stays"
+    />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Stay Portfolio"
+    />
+    <Meta
+      property="twitter:description"
+      content="We love using our platform to help promote stays like yours gain more visibility and increased traffic."
+    />
+    <Metadata />
+  </Head>
   <PasswordProtect>
     <template #default>
       <div class="overflow-hidden">

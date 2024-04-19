@@ -1,4 +1,33 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Terms & Privacy</Title>
+    <Meta
+      name="description"
+      content="By engaging with our content, services, or
+        subscribing to our newsletter, you agree to the following terms and
+        conditions and privacy policy."
+    />
+    <Link rel="canonical" href="https://coupleofpatels.com/terms" />
+    <Meta property="og:title" content="Couple of Patels | Terms & Privacy" />
+    <Meta
+      property="og:description"
+      content="By engaging with our content, services, or
+        subscribing to our newsletter, you agree to the following terms and
+        conditions and privacy policy."
+    />
+    <Meta property="og:url" content="https://coupleofpatels.com/terms" />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Terms & Privacy"
+    />
+    <Meta
+      property="twitter:description"
+      content="By engaging with our content, services, or
+        subscribing to our newsletter, you agree to the following terms and
+        conditions and privacy policy."
+    />
+    <Metadata />
+  </Head>
   <div class="container">
     <Header />
     <main

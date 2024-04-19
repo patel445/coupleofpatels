@@ -1,4 +1,33 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Product Portfolio</Title>
+    <Meta
+      name="description"
+      content="We love using our platform to help businesses like yours increase sales and grow."
+    />
+    <Link
+      rel="canonical"
+      href="https://coupleofpatels.com/portfolio/products"
+    />
+    <Meta property="og:title" content="Couple of Patels | Product Portfolio" />
+    <Meta
+      property="og:description"
+      content="We love using our platform to help businesses like yours increase sales and grow."
+    />
+    <Meta
+      property="og:url"
+      content="https://coupleofpatels.com/portfolio/products"
+    />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Product Portfolio"
+    />
+    <Meta
+      property="twitter:description"
+      content="We love using our platform to help businesses like yours increase sales and grow."
+    />
+    <Metadata />
+  </Head>
   <PasswordProtect>
     <template #default>
       <div class="overflow-hidden">

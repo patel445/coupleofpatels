@@ -1,4 +1,24 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Portfolio</Title>
+    <Meta
+      name="description"
+      content="We're Jay and Himani, and we run an Instagram account all about our adventures and experiences in the Midwest."
+    />
+    <Link rel="canonical" href="https://coupleofpatels.com/portfolio" />
+    <Meta property="og:title" content="Couple of Patels | Portfolio" />
+    <Meta
+      property="og:description"
+      content="We're Jay and Himani, and we run an Instagram account all about our adventures and experiences in the Midwest."
+    />
+    <Meta property="og:url" content="https://coupleofpatels.com/portfolio" />
+    <Meta property="twitter:title" content="Couple of Patels | Portfolio" />
+    <Meta
+      property="twitter:description"
+      content="We're Jay and Himani, and we run an Instagram account all about our adventures and experiences in the Midwest."
+    />
+    <Metadata />
+  </Head>
   <div class="overflow-hidden">
     <div class="container">
       <Header />
@@ -107,9 +127,7 @@
           id="our-work"
         >
           <div class="mx-auto max-w-3xl lg:mx-0 prose sm:prose-lg">
-            <h2 class="tracking-tight">
-              Our Work
-            </h2>
+            <h2 class="tracking-tight">Our Work</h2>
             <p class="leading-8">
               Explore examples of our past projects and find out about our
               pricing and the benefits of partnering with us. Due to the
@@ -174,7 +192,7 @@ const mediakits = [
   {
     name: "Product Collabs",
     imageUrl: "/product/enjoy-the-wood-book.jpg",
-    url: "portfolio/product",
+    url: "portfolio/products",
   },
   {
     name: "Tourism Board Partnerships",

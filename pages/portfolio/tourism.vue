@@ -1,4 +1,33 @@
 <template>
+    <Head>
+    <Title>Couple of Patels | Tourism Portfolio</Title>
+    <Meta
+      name="description"
+      content="We love using our platform to help spread the word and increase tourism in your area."
+    />
+    <Link
+      rel="canonical"
+      href="https://coupleofpatels.com/portfolio/tourism"
+    />
+    <Meta property="og:title" content="Couple of Patels | Tourism Portfolio" />
+    <Meta
+      property="og:description"
+      content="We love using our platform to help spread the word and increase tourism in your area."
+    />
+    <Meta
+      property="og:url"
+      content="https://coupleofpatels.com/portfolio/tourism"
+    />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Tourism Portfolio"
+    />
+    <Meta
+      property="twitter:description"
+      content="We love using our platform to help spread the word and increase tourism in your area."
+    />
+    <Metadata />
+  </Head>
   <PasswordProtect>
     <template #default>
       <div class="overflow-hidden">

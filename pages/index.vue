@@ -1,4 +1,30 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Midwest Travel & Experiences</Title>
+    <Meta
+      name="description"
+      content="Our space is all about sharing the adventures and experiences we've gathered across the Midwest."
+    />
+    <Link rel="canonical" href="https://coupleofpatels.com/" />
+    <Meta
+      property="og:title"
+      content="Couple of Patels | Midwest Travel & Experiences"
+    />
+    <Meta
+      property="og:description"
+      content="Our space is all about sharing the adventures and experiences we've gathered across the Midwest."
+    />
+    <Meta property="og:url" content="https://coupleofpatels.com/" />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Midwest Travel & Experiences"
+    />
+    <Meta
+      property="twitter:description"
+      content="Our space is all about sharing the adventures and experiences we've gathered across the Midwest."
+    />
+    <Metadata />
+  </Head>
   <div class="container">
     <Header />
     <section id="background" class="relative isolate">

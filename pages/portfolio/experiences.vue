@@ -1,4 +1,36 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Experience Portfolio</Title>
+    <Meta
+      name="description"
+      content="We love using our platform to help businesses like yours gain more visibility and grow."
+    />
+    <Link
+      rel="canonical"
+      href="https://coupleofpatels.com/portfolio/experiences"
+    />
+    <Meta
+      property="og:title"
+      content="Couple of Patels | Experience Portfolio"
+    />
+    <Meta
+      property="og:description"
+      content="We love using our platform to help businesses like yours gain more visibility and grow."
+    />
+    <Meta
+      property="og:url"
+      content="https://coupleofpatels.com/portfolio/experiences"
+    />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Experience Portfolio"
+    />
+    <Meta
+      property="twitter:description"
+      content="We love using our platform to help businesses like yours gain more visibility and grow."
+    />
+    <Metadata />
+  </Head>
   <PasswordProtect>
     <template #default>
       <div class="overflow-hidden">

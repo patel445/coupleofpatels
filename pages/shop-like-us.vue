@@ -1,4 +1,27 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Shop Like Us</Title>
+    <Meta
+      name="description"
+      content="Shop all the items we love and use daily."
+    />
+    <Link rel="canonical" href="https://coupleofpatels.com/shop-like-us" />
+    <Meta property="og:title" content="Couple of Patels | Shop Like Us" />
+    <Meta
+      property="og:description"
+      content="Shop all the items we love and use daily."
+    />
+    <Meta property="og:url" content="https://coupleofpatels.com/shop-like-us" />
+    <Meta
+      property="twitter:title"
+      content="Couple of Patels | Shop Like Us"
+    />
+    <Meta
+      property="twitter:description"
+      content="Shop all the items we love and use daily."
+    />
+    <Metadata />
+  </Head>
   <div class="container">
     <Header />
     <div class="relative pt-12 pb-28 md:py-20">
@@ -13,25 +36,19 @@
           aria-hidden="true"
         />
       </div>
-      <div
-        class="relative max-w-custom-container mx-auto px-6 md:px-8 py-16"
-      >
-      <div class = "prose sm:prose-lg">
-        <h1 class="text-white mb-0 sm:mb-0">
-          Shop Like Us
-        </h1>
-        <p class="font-medium text-slate-100">
-          Shop all the items we love and use daily.
-        </p>
-      </div>
+      <div class="relative max-w-custom-container mx-auto px-6 md:px-8 py-16">
+        <div class="prose sm:prose-lg">
+          <h1 class="text-white mb-0 sm:mb-0">Shop Like Us</h1>
+          <p class="font-medium text-slate-100">
+            Shop all the items we love and use daily.
+          </p>
+        </div>
       </div>
     </div>
     <main
       class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pt-16 md:pb-20"
     >
-      <section
-        class="relative -mt-20 md:-mt-28"
-      >
+      <section class="relative -mt-20 md:-mt-28">
         <h2 class="sr-only">Shop Now</h2>
         <div
           class="grid grid-cols-1 gap-y-20 md:grid-cols-3 md:gap-x-4 lg:gap-x-8"
@@ -43,15 +60,16 @@
           >
             <div class="relative flex-1 px-6 lg:px-8 pb-8 pt-16">
               <a
-                :href = "link.href" class="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-theme-dark p-5 shadow-lg"
+                :href="link.href"
+                class="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-theme-dark p-5 shadow-lg"
               >
-                <img :src="link.image" class="h-6 hover:text-primary " />
-             </a>
-              <div class = "prose sm:prose-lg">
+                <img :src="link.image" class="h-6 hover:text-primary" />
+              </a>
+              <div class="prose sm:prose-lg">
                 <h3>
                   {{ link.name }}
                 </h3>
-                <p class = "text-zinc-700">
+                <p class="text-zinc-700">
                   {{ link.description }}
                 </p>
               </div>

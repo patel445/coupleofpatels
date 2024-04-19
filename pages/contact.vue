@@ -1,4 +1,24 @@
 <template>
+  <Head>
+    <Title>Couple of Patels | Contact Us</Title>
+    <Meta
+      name="description"
+      content="Are you interested in collaborations, user-generated content (UGC), custom itineraries, or something else entirely? Let's talk!"
+    />
+    <Link rel="canonical" href="https://coupleofpatels.com/contact" />
+    <Meta property="og:title" content="Couple of Patels | Contact Us" />
+    <Meta
+      property="og:description"
+      content="Are you interested in collaborations, user-generated content (UGC), custom itineraries, or something else entirely? Let's talk!"
+    />
+    <Meta property="og:url" content="https://coupleofpatels.com/contact" />
+    <Meta property="twitter:title" content="Couple of Patels | Contact Us" />
+    <Meta
+      property="twitter:description"
+      content="Are you interested in collaborations, user-generated content (UGC), custom itineraries, or something else entirely? Let's talk!"
+    />
+    <Metadata />
+  </Head>
   <div class="container">
     <Header />
     <main>
@@ -50,9 +70,7 @@
                 alt="Chicago Tourism"
               />
             </figure>
-            <h2 class="text-3xl font-bold tracking-tight">
-              Get in touch
-            </h2>
+            <h2 class="text-3xl font-bold tracking-tight">Get in touch</h2>
             <figure class="mt-5 md:hidden">
               <img
                 class="max-h-[325px] sm:max-h-[450px] w-full object-cover object-top rounded-xl"
@@ -62,23 +80,28 @@
             </figure>
             <p class="leading-8 mt-6 text-zinc-700">
               Are you interested in collaborations, user-generated content
-              (UGC), custom itineraries, or something else entirely? Let's talk! We'd love to know
-              what you have in mind! Feel free to drop us a message right here
-              or email us at
-              <a href="mailto:coupleofpatels@gmail.com" class="text-primary-hover text-bold no-underline"
+              (UGC), custom itineraries, or something else entirely? Let's talk!
+              We'd love to know what you have in mind! Feel free to drop us a
+              message right here or email us at
+              <a
+                href="mailto:coupleofpatels@gmail.com"
+                class="text-primary-hover text-bold no-underline"
                 >coupleofpatels@gmail.com</a
               >
               with all the specifics. We're looking forward to hearing from you!
             </p>
           </div>
-          <form method="POST"  class="px-6 md:px-8 py-8 md:py-20">
+          <form method="POST" class="px-6 md:px-8 py-8 md:py-20">
             <div class="mx-auto">
-              <div class="elfsight-app-086d227a-e4a1-4668-ae02-023bcabc38ea" data-elfsight-app-lazy></div>
+              <div
+                class="elfsight-app-086d227a-e4a1-4668-ae02-023bcabc38ea"
+                data-elfsight-app-lazy
+              ></div>
             </div>
           </form>
         </div>
       </div>
-    </main> 
+    </main>
     <Footer />
   </div>
 </template>
