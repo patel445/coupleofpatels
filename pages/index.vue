@@ -72,7 +72,7 @@
                 <p class="leading-8 text-zinc-700 sm:max-w-md">
                   Hey there! We're Jay and Himani, the couple behind
                   <a
-                    href="https://www.instagram.com/coupleofpatels"
+                    href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
                   >
@@ -87,7 +87,7 @@
                   >Work With Us</a
                 >
                 <a
-                  href="https://www.instagram.com/coupleofpatels"
+                  href="https://instagram.com/coupleofpatels"
                   class="hidden md:block text-sm font-semibold leading-6 text-zinc-700 hover:text-primary"
                   >Our Instagram <span aria-hidden="true">→</span></a
                 >

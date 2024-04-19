@@ -91,21 +91,21 @@
 const shoppingLinks = [
   {
     name: "Amazon Store",
-    href: "https://www.amazon.com/shop/coupleofpatels",
+    href: "https://amazon.com/shop/coupleofpatels",
     description:
       "Shop the items we use every day, like our travel essentials and photography gear",
     image: "/amazon.svg",
   },
   {
     name: "LTK Page",
-    href: "https://www.shopltk.com/explore/coupleofpatels",
+    href: "https://shopltk.com/explore/coupleofpatels",
     description:
       "Visit our LTK page to shop the complete looks and gear featured in our pictures",
     image: "/ltk.svg",
   },
   {
     name: "Vessi",
-    href: "https://www.crrnt.app/VESSI/D39JpLgp",
+    href: "https://crrnt.app/VESSI/D39JpLgp",
     description:
       "We absolutely love our Vessi Waterproof Shoes and accessories",
     image: "/shopping.svg",

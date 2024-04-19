@@ -40,7 +40,7 @@
                 <p class="leading-8 sm:max-w-3xl">
                   Hey there! We're Jay and Himani, the couple behind
                   <a
-                    href="https://www.instagram.com/coupleofpatels"
+                    href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
                   >
@@ -428,14 +428,14 @@ const brands = [
     description: "Shoes & Apparel",
     imageUrl: "/product/vessi-close.jpg",
     bio: "Vessi, a company known for its fully waterproof shoes and apparel, boasts a following of over 330,000 on Instagram.",
-    link: "https://www.instagram.com/p/C4ekEofr-dl/",
+    link: "https://instagram.com/p/C4ekEofr-dl/",
   },
   {
     name: "Enjoy The Wood",
     description: "Wooden Map & Decor",
     imageUrl: "/product/enjoy-the-wood-pin.jpg",
     bio: "Enjoy The Wood, a company specializing in wooden map decor for your home, has a following of over 415,000 on Instagram.",
-    link: "https://www.instagram.com/p/C4HbMSSrIDt/",
+    link: "https://instagram.com/p/C4HbMSSrIDt/",
   },
   {
     name: "CamelBak",

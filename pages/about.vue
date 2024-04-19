@@ -62,7 +62,7 @@
               >Shop Like Us</a
             >
             <a
-              href="https://www.instagram.com/coupleofpatels"
+              href="https://instagram.com/coupleofpatels"
               class="text-sm font-semibold leading-6 text-zinc-700 hover:text-primary"
               >Follow Us <span aria-hidden="true">→</span></a
             >

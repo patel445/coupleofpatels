@@ -40,7 +40,7 @@
                 <p class="leading-8 sm:max-w-3xl">
                   Hey there! We're Jay and Himani, the couple behind
                   <a
-                    href="https://www.instagram.com/coupleofpatels"
+                    href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
                   >
@@ -407,21 +407,21 @@ const stays = [
     description: "Airbnb",
     imageUrl: "/stay/owl-house-shasta.jpg",
     bio: "The Owl House, an airbnb with a vintage 1963 Shasta imbedded in a fully equipped home",
-    link: "https://www.instagram.com/reel/C4zJbTsLPVS/",
+    link: "https://instagram.com/reel/C4zJbTsLPVS/",
   },
   {
     name: "Stony Creek Peoria",
     description: "Hotel",
     imageUrl: "/stay/stony-chair.jpg",
     bio: "Stony Creek, where you can expect an exceptionally personal home-away-from-home experience",
-    link: "https://www.instagram.com/reel/C1qWLBVry8E/",
+    link: "https://instagram.com/reel/C1qWLBVry8E/",
   },
   {
     name: "The Neighborhood Hotel®",
     description: "Hotel",
     imageUrl: "/stay/neighborhood.jpg",
     bio: "The Neighborhood Hotel, a home away from home where thoughtful design meets genuine comfort, is a home styled hotel",
-    link: "https://www.instagram.com/reel/C2Bhi4JL9T1/",
+    link: "https://instagram.com/reel/C2Bhi4JL9T1/",
   },
 ];
 

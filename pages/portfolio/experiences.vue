@@ -43,7 +43,7 @@
                 <p class="leading-8 sm:max-w-3xl">
                   Hey there! We're Jay and Himani, the couple behind
                   <a
-                    href="https://www.instagram.com/coupleofpatels"
+                    href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
                   >
@@ -411,28 +411,28 @@ const experiences = [
     description: "Arts & Fun",
     imageUrl: "/experience/shot-of-art-finished.jpg",
     bio: "Shot of Art, known for its private art experiences, boasts a following of over 143,000 on Instagram.",
-    link: "https://www.instagram.com/reel/C49LxFirSsJ/",
+    link: "https://instagram.com/reel/C49LxFirSsJ/",
   },
   {
     name: "Spin Art Nation Chicago",
     description: "Arts & entertainment",
     imageUrl: "/experience/spin-art.jpg",
     bio: "Spin Art Nation, a interactive art experience that combines paint, various canvases, and a spinning platform to create unique and dynamic artworks.",
-    link: "https://www.instagram.com/reel/CzkedyiLatf/",
+    link: "https://instagram.com/reel/CzkedyiLatf/",
   },
   {
     name: "BullsEye Axe Throwing Lounge",
     description: "Recreation Center",
     imageUrl: "/experience/axe-throwing.jpg",
     bio: "BullsEye Axe Throwing Lounge, Chicagoland’s premier axe throwing lounge.",
-    link: "https://www.instagram.com/reel/Cz9zP6Us8QT/",
+    link: "https://instagram.com/reel/Cz9zP6Us8QT/",
   },
   {
     name: "Studio W.I.P",
     description: "Arts & entertainment",
     imageUrl: "/experience/spray-paint.jpg",
     bio: "Studio W.I.P, the original Spray Paint and Sip, offers a unique street art experience in the studio.",
-    link: "https://www.instagram.com/reel/C0f0L3ug8Ml/",
+    link: "https://instagram.com/reel/C0f0L3ug8Ml/",
   },
 ];
 

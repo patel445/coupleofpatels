@@ -113,22 +113,22 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 const social = [
   {
     name: "Instagram",
-    href: "https://www.instagram.com/coupleofpatels",
+    href: "https://instagram.com/coupleofpatels",
     src: "/instagram.svg",
   },
   {
     name: "Pinterest",
-    href: "https://www.pinterest.com/coupleofpatels",
+    href: "https://pinterest.com/coupleofpatels",
     src: "/pinterest.svg",
   },
   {
     name: "Amazon",
-    href: "https://www.amazon.com/shop/coupleofpatels",
+    href: "https://amazon.com/shop/coupleofpatels",
     src: "/amazon.svg",
   },
   {
     name: "LTK",
-    href: "https://www.shopltk.com/explore/coupleofpatels",
+    href: "https://shopltk.com/explore/coupleofpatels",
     src: "/ltk.svg",
   },
   {

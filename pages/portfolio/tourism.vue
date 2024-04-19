@@ -40,7 +40,7 @@
                 <p class="leading-8 sm:max-w-3xl">
                   "Hey there! We're Jay and Himani, the couple behind
                   <a
-                    href="https://www.instagram.com/coupleofpatels"
+                    href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
                   >
