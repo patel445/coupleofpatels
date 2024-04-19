@@ -8,13 +8,6 @@ module.exports = {
       "./plugins/**/*.{js,ts}",
       "./nuxt.config.{js,ts}",
     ],
-    app: {
-      head: {
-        link: [
-          
-        ],
-      },
-    },
     plugins: [
       require('@tailwindcss/typography')
     ],
