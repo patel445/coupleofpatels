@@ -41,9 +41,9 @@
                     <p class="leading-8 text-zinc-700 sm:max-w-lg">
                       Hey there! Welcome to our portfolio. We're Jay and Himani,
                       and we run an Instagram account all about our adventures
-                      and experiences in the Midwest. We've built a great
+                      and experiences in the Midwest and beyond. We've built a great
                       Instagram community where we share our favorite spots to
-                      eat, stay, and explore. Interested in working together?
+                      explore, stay, and eat. Interested in working together?
                       Check out our work below to see what we do and how we
                       could collaborate. Let's create something amazing
                       together!

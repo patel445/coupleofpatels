@@ -75,9 +75,8 @@
                     href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
-                  >
-                  on Instagram. Our space is all about sharing the adventures
-                  and experiences we've gathered across the Midwest.
+                  >. Our space is all about sharing the adventures
+                  and experiences we've gathered across the Midwest and beyond.
                 </p>
               </div>
               <div class="flex items-center gap-x-6 mt-8 md:mt-10">
