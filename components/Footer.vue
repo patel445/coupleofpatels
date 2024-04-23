@@ -122,6 +122,11 @@ const social = [
     src: "/instagram.svg",
   },
   {
+    name: "YouTube",
+    href: "https://youtube.com/@CoupleofPatels",
+    src: "/youtube.svg",
+  },
+  {
     name: "Pinterest",
     href: "https://pinterest.com/coupleofpatels",
     src: "/pinterest.svg",
