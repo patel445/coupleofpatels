@@ -148,6 +148,7 @@ const navigation = [
   { name: "About", href: "/about", current: true },
   { name: "Contact", href: "/contact", current: false },
 ];
+//{ name: "Courses", href: "/courses", current: false },
 </script>
 <script>
 export default {
