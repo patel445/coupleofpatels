@@ -2,12 +2,12 @@
   <footer>
     <div class="bg-white max-w-custom-container mx-auto md:px-8">
       <div
-        class="relative isolate flex flex-col gap-10 overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-20 lg:flex-row lg:items-center lg:py-32"
+        class="relative isolate flex flex-col gap-10 overflow-hidden bg-gray-900 px-6 py-20 shadow-2xl sm:rounded-3xl sm:px-20 lg:flex-row lg:items-center"
       >
         <h2
           class="max-w-2xl text-3xl font-bold tracking-tight text-white lg:max-w-none lg:flex-auto"
         >
-          Sign Up for FREE Access to Our Courses and More!
+          Sign Up Now for FREE Access to Our Courses!
         </h2>
         <div class = "w-full max-w-md">
           <form
@@ -55,7 +55,7 @@
             {{ message }}
           </div>
           <p class="mt-4 text-sm leading-6 text-gray-300">
-            *Unsubscribe at any time directly from the email.
+            *Get access to full itineraries, courses, and more
           </p>
         </div>
         <div
