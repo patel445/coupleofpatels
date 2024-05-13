@@ -25,16 +25,16 @@
       <main class="space-y-20 md:space-y-36">
         <section id="hero">
           <div class="relative">
-            <div class="relative z-10 md:w-full md:max-w-xl lg:max-w-2xl">
+            <div class="relative z-10 md:w-full md:max-w-xl xl:max-w-3xl">
               <svg
-                class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white md:block"
+                class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 lg:translate-x-3/4 xl:translate-x-1/2 transform fill-white md:block"
                 viewBox="0 0 100 100"
                 preserveAspectRatio="none"
                 aria-hidden="true"
               >
                 <polygon points="0,0 90,0 50,100 0,100" />
               </svg>
-              <div class="relative px-6 md:px-8 py-8 md:py-32">
+              <div class="relative px-6 md:px-8 lg:px-0 xl:px-16 py-8 md:py-32">
                 <div class="mx-auto lg:pl-12">
                   <div class="prose sm:prose-lg">
                     <h1 class="tracking-tight">Work With Us!</h1>

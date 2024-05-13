@@ -22,8 +22,8 @@
 </template>
 <script setup>
 const stats = [
-  { id: 1, name: "Instagram Followers", value: "18,000" },
-  { id: 2, name: "Posts", value: "137" },
+  { id: 1, name: "Instagram Followers", value: "19,000" },
+  { id: 2, name: "Posts", value: "138" },
   { id: 3, name: "Followers From Midwest", value: "90%" },
   { id: 4, name: "Engagement", value: "6.4%" },
 ];

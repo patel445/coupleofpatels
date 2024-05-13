@@ -6,7 +6,7 @@
         <div class="max-w-custom-container mx-auto">
           <div class="relative lg:static">
             <div
-              class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-zinc-100 ring-1 ring-zinc-900/10"
+              class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden"
             >
               <svg
                 class="absolute inset-0 h-full w-full stroke-zinc-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"

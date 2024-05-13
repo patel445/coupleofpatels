@@ -28,7 +28,7 @@
         >
           <div class="relative lg:static px-6 md:px-8 py-8 md:py-20">
             <div
-              class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-zinc-100 ring-1 ring-zinc-900/10 lg:w-1/2"
+              class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden lg:w-1/2"
             >
               <svg
                 class="absolute inset-0 h-full w-full stroke-zinc-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"

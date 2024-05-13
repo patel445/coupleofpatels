@@ -144,11 +144,11 @@ const social = [
 ];
 const navigation = [
   { name: "Portfolio", href: "/portfolio", current: false },
+  { name: "Courses", href: "/courses", current: false },
   { name: "Shop Like Us", href: "/shop-like-us", current: false },
   { name: "About", href: "/about", current: true },
   { name: "Contact", href: "/contact", current: false },
 ];
-//{ name: "Courses", href: "/courses", current: false },
 </script>
 <script>
 export default {
