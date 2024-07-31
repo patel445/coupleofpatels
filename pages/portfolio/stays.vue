@@ -403,6 +403,13 @@ import PasswordProtect from "~/components/PasswordProtect.vue";
 
 const stays = [
   {
+    name: "The Bunkies",
+    description: "Vacation Home",
+    imageUrl: "/stay/bunkies.png",
+    bio: "Modern getaway just 90 minutes from Chicago and in a marina resort called Heritage Harbor",
+    link: "https://www.instagram.com/reel/C7VNxIqJ66K/",
+  },
+  {
     name: "Owl House Airbnb",
     description: "Airbnb",
     imageUrl: "/stay/owl-house-shasta.jpg",
