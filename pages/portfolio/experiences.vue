@@ -231,7 +231,7 @@
                           </p>
                           <p class="flex items-baseline gap-x-2 mt-6">
                             <span class="text-5xl font-semibold tracking-tight"
-                              >$180</span
+                              >$225</span
                             >USD
                           </p>
                           <a
@@ -296,7 +296,7 @@
                           </p>
                           <p class="flex items-baseline gap-x-2 mt-6">
                             <span class="text-5xl font-semibold tracking-tight"
-                              >$450</span
+                              >$625</span
                             >USD
                           </p>
                           <a
@@ -365,7 +365,7 @@
                           </p>
                           <p class="flex items-baseline gap-x-2 mt-6">
                             <span class="text-5xl font-semibold tracking-tight"
-                              >$1000</span
+                              >$1500</span
                             >USD
                           </p>
                           <a
