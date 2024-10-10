@@ -3,19 +3,19 @@
     <Title>Couple of Patels | Portfolio</Title>
     <Meta
       name="description"
-      content="We're Jay and Himani, and we run an Instagram account all about our adventures and experiences in the Midwest."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Link rel="canonical" href="https://coupleofpatels.com/portfolio" />
     <Meta property="og:title" content="Couple of Patels | Portfolio" />
     <Meta
       property="og:description"
-      content="We're Jay and Himani, and we run an Instagram account all about our adventures and experiences in the Midwest."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Meta property="og:url" content="https://coupleofpatels.com/portfolio" />
     <Meta property="twitter:title" content="Couple of Patels | Portfolio" />
     <Meta
       property="twitter:description"
-      content="We're Jay and Himani, and we run an Instagram account all about our adventures and experiences in the Midwest."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Metadata />
   </Head>
@@ -39,11 +39,7 @@
                   <div class="prose sm:prose-lg">
                     <h1 class="tracking-tight">Work With Us!</h1>
                     <p class="leading-8 text-zinc-700 sm:max-w-lg">
-                      Hey there! Welcome to our portfolio. We're Jay and Himani,
-                      and we run an Instagram account all about our adventures
-                      and experiences in the Midwest and beyond. We've built a great
-                      Instagram community where we share our favorite spots to
-                      explore, stay, and eat. Interested in working together?
+                      Hey there! Welcome to our portfolio. We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers. Interested in working together?
                       Check out our work below to see what we do and how we
                       could collaborate. Let's create something amazing
                       together!

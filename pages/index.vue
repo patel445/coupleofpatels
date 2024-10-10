@@ -1,27 +1,27 @@
 <template>
   <Head>
-    <Title>Couple of Patels | Midwest Travel & Experiences</Title>
+    <Title>Couple of Patels | Indian Adventure Travelers</Title>
     <Meta
       name="description"
-      content="Our space is all about sharing the adventures and experiences we've gathered across the Midwest."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Link rel="canonical" href="https://coupleofpatels.com/" />
     <Meta
       property="og:title"
-      content="Couple of Patels | Midwest Travel & Experiences"
+      content="Couple of Patels | Indian Adventure Travelers"
     />
     <Meta
       property="og:description"
-      content="Our space is all about sharing the adventures and experiences we've gathered across the Midwest."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Meta property="og:url" content="https://coupleofpatels.com/" />
     <Meta
       property="twitter:title"
-      content="Couple of Patels | Midwest Travel & Experiences"
+      content="Couple of Patels | Indian Adventure Travelers"
     />
     <Meta
       property="twitter:description"
-      content="Our space is all about sharing the adventures and experiences we've gathered across the Midwest."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Metadata />
   </Head>
@@ -70,13 +70,11 @@
                   Welcome to <br />Couple of Patels
                 </h1>
                 <p class="leading-8 text-zinc-700 sm:max-w-md">
-                  Hey there! We're Jay and Himani, the couple behind
-                  <a
+                   We’re Jay and Himani, the adventure travel content creators behind <a
                     href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
-                  >. Our space is all about sharing the adventures
-                  and experiences we've gathered across the Midwest and beyond.
+                  >, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers
                 </p>
               </div>
               <div class="flex items-center gap-x-6 mt-8 md:mt-10">

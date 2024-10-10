@@ -40,18 +40,12 @@
             <div class="max-w-custom-container mx-auto px-6 md:px-8">
               <div class="prose sm:prose-lg pb-12 md:pb-20">
                 <h1 class="tracking-tight">Experience Collabs</h1>
-                <p class="leading-8 sm:max-w-3xl">
-                  Hey there! We're Jay and Himani, the couple behind
-                  <a
+                <p class="leading-8 text-zinc-700 sm:max-w-md">
+                   We’re Jay and Himani, the adventure travel content creators behind <a
                     href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
-                  >
-                  on Instagram. Our space is all about sharing the adventures
-                  and experiences we've gathered across the Midwest. We love
-                  using our platform to help businesses like yours gain more
-                  visibility and grow. Let's have a chat and make this
-                  opportunity a reality!
+                  >, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers.
                 </p>
                 <div class="flex items-center gap-x-6 mt-8 md:mt-10">
                   <a
