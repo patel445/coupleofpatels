@@ -28,15 +28,13 @@
     />
     <Metadata />
   </Head>
-  <PasswordProtect>
-    <template #default>
       <div class="overflow-hidden">
         <div class="container">
           <Header />
-          <div class="space-y-20 md:space-y-36 py-8 md:py-20">
+          <div class="space-y-20 md:space-y-32 py-8 md:py-20">
             <div class="max-w-custom-container mx-auto px-6 md:px-8">
               <div class="prose sm:prose-lg pb-12 md:pb-20">
-                <h1 class="tracking-tight">Stay Collabs</h1>
+                <h1 class="tracking-tight">Stay Partnerships</h1>
                 <p class="leading-8 sm:max-w-3xl">
                   We’re Jay and Himani, the adventure travel content creators behind <a
                     href="https://instagram.com/coupleofpatels"
@@ -56,7 +54,7 @@
                   <a
                     href="#our-rates"
                     class="inline-block text-sm text-center font-semibold no-underline"
-                    >Our Rates <span aria-hidden="true">→</span>
+                    >Rate Sheet <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
@@ -79,7 +77,7 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
-                    src="/stay/stony-pool.jpg"
+                    src="/stay/mountainshadowsresort.jpg"
                   />
                 </div>
                 <div
@@ -103,7 +101,7 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
-                    src="/stay/stony-chair.jpg"
+                    src="/stay/stony-pool.jpg"
                   />
                 </div>
               </div>
@@ -113,14 +111,10 @@
                 class="max-w-custom-container mx-auto px-6 md:px-8 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 xl:grid-cols-5"
               >
                 <div class="xl:col-span-2 prose sm:prose-lg">
-                  <h2 class="tracking-tight">Past Collabs</h2>
+                  <h2 class="tracking-tight">Past Collaborations</h2>
                   <p class="leading-8">
-                    We're all about creating unforgettable moments and
-                    delivering unmatched value through our collaborations, all
-                    while making a positive impact on our audience. Check out
-                    some of the incredible stays we've had the pleasure of
-                    partnering with in the past. Join us, and let's make magic
-                    happen together!
+                    Check out some of the incredible stays we've had the pleasure of
+                    partnering with in the past.
                   </p>
                 </div>
                 <ul
@@ -160,248 +154,24 @@
                 </ul>
               </div>
             </section>
-            <section id="our-rates">
-              <div class="max-w-custom-container mx-auto px-6 md:px-8">
-                <div class="-mt-4 md:-mt-0 pb-12 prose sm:prose-lg">
-                  <h2 class="tracking-tight">Our Rates</h2>
-                  <p class="leading-8 sm:max-w-3xl">
-                    We've put a lot of thought into our pricing to ensure it
-                    truly reflects our value to you and aligns with industry
-                    standards. To thank you for choosing us, we offer a special
-                    bonus: with every paid service, just let us know, and we'll
-                    provide you with copies of all the photos and videos we've
-                    captured.
-                  </p>
-                </div>
-                <div
-                  class="grid grid-cols-1 gap-x-8 gap-y-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-1"
-                >
-                  <div
-                    class="rounded-2xl ring-1 ring-zinc-300 lg:flex lg:max-w-none lg:mx-0"
-                    id="story-slide"
-                  >
-                    <div class="lg:flex-auto p-8 lg:p-10">
-                      <h3 class="text-xl sm:text-2xl font-bold tracking-tight">
-                        Story Slide
-                      </h3>
-                      <p class="mt-6 text-base leading-7 text-zinc-700">
-                        Increase your traffic with our story slides! Our
-                        captivating visuals from the accomodation will create a
-                        direct link between our followers and your stay.
-                      </p>
-                      <div class="flex items-center gap-x-4 mt-6">
-                        <h4
-                          class="flex-none text-sm text-primary font-semibold leading-6"
-                        >
-                          What’s included:
-                        </h4>
-                      </div>
-                      <ul
-                        role="list"
-                        class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 leading-6 font-medium mt-6"
-                      >
-                        <li
-                          v-for="feature in whatsIncludedStory"
-                          :key="feature"
-                          class="flex gap-x-3 text-sm"
-                        >
-                          <CheckIcon
-                            class="h-6 w-5 flex-none text-primary"
-                            aria-hidden="true"
-                          />
-                          {{ feature }}
-                        </li>
-                      </ul>
-                    </div>
-                    <div
-                      class="lg:max-w-md lg:flex-shrink-0 -mt-2 p-2 lg:mt-0 lg:w-full"
-                    >
-                      <div
-                        class="lg:flex lg:flex-col rounded-2xl bg-zinc-50 ring-1 ring-inset ring-zinc-900/5"
-                      >
-                        <div class="p-8 lg:p-14">
-                          <p class="text-base font-semibold">
-                            Price for single story slide
-                          </p>
-                          <p class="flex items-baseline gap-x-2 mt-6">
-                            <span class="text-5xl font-semibold tracking-tight"
-                              >$225</span
-                            >USD
-                          </p>
-                          <a
-                            href="mailto:coupleofpatels@gmail.com"
-                            class="inline-block w-[100%] sm:w-[75%] rounded-md bg-theme-dark text-sm font-medium text-center text-white py-3 mt-8"
-                            >Email Us</a
-                          >
-                          <p class="mt-6 text-sm text-zinc-700">
-                            <i>*$10 per 1000 followers</i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="rounded-2xl ring-1 ring-zinc-300 lg:flex lg:max-w-none lg:mx-0"
-                    id="story-slide"
-                  >
-                    <div class="lg:flex-auto p-8 lg:p-10">
-                      <h3 class="text-xl sm:text-2xl font-bold tracking-tight">
-                        Post
-                      </h3>
-                      <p class="mt-6 text-base leading-7 text-zinc-700">
-                        Up your traffic with our post! We craft a detailed
-                        overview of the accomodation, complete with visuals, so
-                        it's easy for both new and returning followers to
-                        explore at any time.
-                      </p>
-                      <div class="flex items-center gap-x-4 mt-6">
-                        <h4
-                          class="flex-none text-sm text-primary font-semibold leading-6"
-                        >
-                          What’s included:
-                        </h4>
-                      </div>
-                      <ul
-                        role="list"
-                        class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 leading-6 font-medium mt-6"
-                      >
-                        <li
-                          v-for="feature in whatsIncludedPost"
-                          :key="feature"
-                          class="flex gap-x-3 text-sm"
-                        >
-                          <CheckIcon
-                            class="h-6 w-5 flex-none text-primary"
-                            aria-hidden="true"
-                          />
-                          {{ feature }}
-                        </li>
-                      </ul>
-                    </div>
-                    <div
-                      class="lg:max-w-md lg:flex-shrink-0 -mt-2 p-2 lg:mt-0 lg:w-full"
-                    >
-                      <div
-                        class="lg:flex lg:flex-col rounded-2xl bg-zinc-50 ring-1 ring-inset ring-zinc-900/5"
-                      >
-                        <div class="p-8 lg:p-14">
-                          <p class="text-base font-semibold">
-                            Price for single image post
-                          </p>
-                          <p class="flex items-baseline gap-x-2 mt-6">
-                            <span class="text-5xl font-semibold tracking-tight"
-                              >$625</span
-                            >USD
-                          </p>
-                          <a
-                            href="mailto:coupleofpatels@gmail.com"
-                            class="inline-block w-[100%] sm:w-[75%] rounded-md bg-theme-dark text-sm font-medium text-center text-white py-3 mt-8"
-                            >Email Us</a
-                          >
-                          <p class="mt-6 text-sm text-zinc-700">
-                            <i
-                              >*$25 per 1000 followers. <br />
-                              Additional $50 per extra image.</i
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="rounded-2xl ring-1 ring-zinc-300 lg:flex lg:max-w-none lg:mx-0"
-                    id="story-slide"
-                  >
-                    <div class="lg:flex-auto p-8 lg:p-10">
-                      <h3 class="text-xl sm:text-2xl font-bold tracking-tight">
-                        Reel
-                      </h3>
-                      <p class="mt-6 text-base leading-7 text-zinc-700">
-                        Boost your traffic with our reel! Dive into the most
-                        immersive way to showcase your stay. Given the large
-                        number of targeted views we receive on reels, they are a
-                        prime choice for getting the right kind of exposure.
-                      </p>
-                      <div class="flex items-center gap-x-4 mt-6">
-                        <h4
-                          class="flex-none text-sm text-primary font-semibold leading-6"
-                        >
-                          What’s included:
-                        </h4>
-                      </div>
-                      <ul
-                        role="list"
-                        class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 leading-6 font-medium mt-6"
-                      >
-                        <li
-                          v-for="feature in whatsIncludedReel"
-                          :key="feature"
-                          class="flex gap-x-3 text-sm"
-                        >
-                          <CheckIcon
-                            class="h-6 w-5 flex-none text-primary"
-                            aria-hidden="true"
-                          />
-                          {{ feature }}
-                        </li>
-                      </ul>
-                    </div>
-                    <div
-                      class="lg:max-w-md lg:flex-shrink-0 -mt-2 p-2 lg:mt-0 lg:w-full"
-                    >
-                      <div
-                        class="lg:flex lg:flex-col rounded-2xl bg-zinc-50 ring-1 ring-inset ring-zinc-900/5"
-                      >
-                        <div class="p-8 lg:p-14">
-                          <p class="text-base font-semibold">
-                            Price for instagram reel
-                          </p>
-                          <p class="flex items-baseline gap-x-2 mt-6">
-                            <span class="text-5xl font-semibold tracking-tight"
-                              >$1500</span
-                            >USD
-                          </p>
-                          <a
-                            href="mailto:coupleofpatels@gmail.com"
-                            class="inline-block w-[100%] sm:w-[75%] rounded-md bg-theme-dark text-sm font-medium text-center text-white py-3 mt-8"
-                            >Email Us</a
-                          >
-                          <p class="mt-6 text-sm text-zinc-700">
-                            <i>*$60 per 1000 followers</i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p class="text-base mt-10 max-w-3xl">
-                  <i
-                    >*We also offer personalized packages with discounts. If
-                    you're interested, drop us an email at
-                    <a
-                      href="mailto:coupleofpatels@gmail.com"
-                      class="text-primary-hover text-bold no-underline"
-                      >coupleofpatels@gmail.com</a
-                    >, and we'd love to work something out.
-                  </i>
-                </p>
-              </div>
-            </section>
           </div>
           <Footer />
         </div>
       </div>
-    </template>
-  </PasswordProtect>
 </template>
 <script setup>
-import { CheckIcon } from "@heroicons/vue/20/solid";
-import PasswordProtect from "~/components/PasswordProtect.vue";
 
 const stays = [
   {
+    name: "Mountain Shadows Resort Scottsdale",
+    description: "Boutique Resort",
+    imageUrl: "/stay/mountainshadows.jpg",
+    bio: "Boutique luxury resort located just below Camelback Mountain with an 18-hole golf course",
+    link: "https://www.instagram.com/reel/DAE_-CjvzBC/",
+  },
+  {
     name: "The Bunkies",
-    description: "Vacation Home",
+    description: "Vacation Rental",
     imageUrl: "/stay/bunkies.png",
     bio: "Modern getaway just 90 minutes from Chicago and in a marina resort called Heritage Harbor",
     link: "https://www.instagram.com/reel/C7VNxIqJ66K/",
@@ -416,35 +186,16 @@ const stays = [
   {
     name: "Stony Creek Peoria",
     description: "Hotel",
-    imageUrl: "/stay/stony-chair.jpg",
+    imageUrl: "/stay/stonycreek.jpg",
     bio: "Stony Creek, where you can expect an exceptionally personal home-away-from-home experience",
     link: "https://instagram.com/reel/C1qWLBVry8E/",
   },
   {
     name: "The Neighborhood Hotel®",
     description: "Hotel",
-    imageUrl: "/stay/neighborhood.jpg",
+    imageUrl: "/stay/theneighborhood.jpg",
     bio: "The Neighborhood Hotel, a home away from home where thoughtful design meets genuine comfort, is a home styled hotel",
     link: "https://instagram.com/reel/C2Bhi4JL9T1/",
   },
-];
-
-const whatsIncludedStory = [
-  "1 story slide",
-  "Link to the stay",
-  "Brief note on the stay",
-  "Copy of content available upon request",
-];
-const whatsIncludedPost = [
-  "1 single image post",
-  "Link to the stay",
-  "Detailed notes about the stay",
-  "Copy of content available upon request",
-];
-const whatsIncludedReel = [
-  "1 reel",
-  "Link to the stay",
-  "Detailed notes about the stay",
-  "Copy of content available upon request",
 ];
 </script>

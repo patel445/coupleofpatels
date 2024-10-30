@@ -27,18 +27,20 @@
           <h1 class="font-bold tracking-tight">Our Courses</h1>
         </div>
         <p class="mt-6 mb-8 md:mb-12 max-w-3xl text-zinc-700">
-          Unlock the secrets that have made our experiences successful! Sign up for our email list, and we'll send you the download link to our course.
+          Unlock the secrets that have led to our success!
         </p>
         <div
-          class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 lg:gap-x-18"
+          class="grid grid-cols-1 gap-y-16 md:grid-cols-3 md:gap-x-12 lg:gap-x-18"
         >
           <div v-for="course in courses"
                     :key="course.alt">
             <div class="w-full overflow-hidden rounded-2xl">
+              <a :href="course.link">
               <img
                :src="course.imageUrl"
                 :alt="course.alt"
               />
+            </a>
             </div>
           </div>
         </div>
@@ -50,12 +52,9 @@
 <script setup>
 const courses = [
   {
-    imageUrl: "/itinerary-poster-art.png",
-    alt: "How to create the perfect Itinerary"
-  },
-  /*{
     imageUrl: "/stay-collab-poster-art.png",
-    alt: "How to land collabs with airbnb & stays"
-  },*/
+    alt: "How to land collabs with airbnb & stays",
+    link: "https://stan.store/coupleofpatels"
+  },
 ];
 </script>

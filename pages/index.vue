@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Couple of Patels | Indian Adventure Travelers</Title>
+    <Title>Couple of Patels | Adventure Travel Content Creators</Title>
     <Meta
       name="description"
       content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
@@ -59,7 +59,7 @@
       </svg>
     </section>
     <main
-      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pb-16 space-y-20 md:space-y-36"
+      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pb-16 space-y-20 md:space-y-32"
     >
       <section id="homepage-hero">
         <div class="overflow-hidden">

@@ -22,7 +22,7 @@
   <div class="overflow-hidden">
     <div class="container">
       <Header />
-      <main class="space-y-20 md:space-y-36">
+      <main class="space-y-20 md:space-y-32">
         <section id="hero">
           <div class="relative">
             <div class="relative z-10 md:w-full md:max-w-xl xl:max-w-3xl">
@@ -39,7 +39,11 @@
                   <div class="prose sm:prose-lg">
                     <h1 class="tracking-tight">Work With Us!</h1>
                     <p class="leading-8 text-zinc-700 sm:max-w-lg">
-                      Hey there! Welcome to our portfolio. We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers. Interested in working together?
+                      Hi there! We’re Jay and Himani, the adventure travel content creators behind <a
+                    href="https://instagram.com/coupleofpatels"
+                    class="text-primary-hover no-underline"
+                    >@coupleofpatels</a
+                     >. We share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers. Interested in working together?
                       Check out our work below to see what we do and how we
                       could collaborate. Let's create something amazing
                       together!
@@ -126,14 +130,7 @@
             <h2 class="tracking-tight">Our Work</h2>
             <p class="leading-8">
               Explore examples of our past projects and find out about our
-              pricing and the benefits of partnering with us. Due to the
-              sensitive nature of the content, these pages are
-              password-protected. To request the password, please email us at
-              <a
-                href="mailto:coupleofpatels@gmail.com"
-                class="text-primary-hover text-bold no-underline"
-                >coupleofpatels@gmail.com</a
-              >.
+              pricing and the benefits of partnering with us.
             </p>
           </div>
           <ul
@@ -165,6 +162,55 @@
             </li>
           </ul>
         </section>
+        <section id="past-collabs">
+              <div
+                class="max-w-custom-container mx-auto px-6 md:px-8 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 xl:grid-cols-5"
+              >
+                <div class="xl:col-span-2 prose sm:prose-lg">
+                  <h2 class="tracking-tight">Past Collaborations</h2>
+                  <p class="leading-8">
+                    Check out some of the incredible brands we've had the pleasure of
+                    partnering with in the past.
+                  </p>
+                </div>
+                <ul
+                  class="-mt-12 space-y-12 divide-y divide-zinc-200 xl:col-span-3"
+                >
+                  <li
+                    v-for="brand in brands"
+                    :key="brand.name"
+                    class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 pt-12"
+                  >
+                    <a :href="brand.link" target="_blank">
+                      <img
+                        class="rounded-2xl object-cover max-h-[325px] w-full h-full"
+                        :src="brand.imageUrl"
+                      />
+                    </a>
+                    <div class="flex-auto max-w-xl">
+                      <h3
+                        class="text-lg text-zinc-900 font-semibold leading-8 tracking-tight"
+                      >
+                        {{ brand.name }}
+                      </h3>
+                      <p class="text-base text-zinc-700 leading-7">
+                        {{ brand.description }}
+                      </p>
+                      <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
+                        {{ brand.bio }}
+                      </p>
+                      <a
+                        :href="brand.link"
+                        v-if="brand.link"
+                        target="_blank"
+                        class="inline-block text-15 font-semibold no-underline text-primary-hover"
+                        >View Work <span aria-hidden="true">→</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
         <div class="max-w-custom-container mx-auto px-6 md:px-8 pb-8 md:pb-16">
           <InstagramCaro />
         </div>
@@ -176,24 +222,24 @@
 <script setup>
 const mediakits = [
   {
-    name: "Experience Collabs",
-    imageUrl: "/experience/shot-of-art.jpg",
-    url: "portfolio/experiences",
-  },
-  {
-    name: "Stay Collabs",
-    imageUrl: "/stay/owl-house.jpg",
-    url: "portfolio/stays",
-  },
-  {
-    name: "Product Collabs",
-    imageUrl: "/product/enjoy-the-wood-book.jpg",
-    url: "portfolio/products",
-  },
-  {
     name: "Tourism Board Partnerships",
     imageUrl: "/tourism/mackinac.jpg",
     url: "portfolio/tourism",
   },
+  {
+    name: "Stay Partnerships",
+    imageUrl: "/stay/owl-house.jpg",
+    url: "portfolio/stays",
+  },
+  {
+    name: "Product Partnerships",
+    imageUrl: "/product/enjoy-the-wood-book.jpg",
+    url: "portfolio/products",
+  },
+  {
+    name: "Experience Partnerships",
+    imageUrl: "/experience/shot-of-art.jpg",
+    url: "portfolio/experiences",
+  }
 ];
 </script>

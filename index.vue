@@ -25,7 +25,7 @@
     />
     <Metadata />
   </Head>
-  <main class="isolate space-y-20 md:space-y-36">
+  <main class="isolate space-y-20 md:space-y-32">
     <div
       class="isolate relative overflow-hidden bg-gradient-to-b from-rose-100/20"
     >
