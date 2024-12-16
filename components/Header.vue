@@ -125,26 +125,11 @@ const social = [
     name: "Pinterest",
     href: "https://pinterest.com/coupleofpatels",
     src: "/pinterest.svg",
-  },
-  {
-    name: "Amazon",
-    href: "https://amazon.com/shop/coupleofpatels",
-    src: "/amazon.svg",
-  },
-  {
-    name: "LTK",
-    href: "https://shopltk.com/explore/coupleofpatels",
-    src: "/ltk.svg",
-  },
-  {
-    name: "Email",
-    href: "mailto:coupleofpatels@gmail.com",
-    src: "/email.svg",
-  },
+  }
 ];
 const navigation = [
   { name: "Portfolio", href: "/portfolio", current: false },
-  { name: "Courses", href: "/courses", current: false },
+  { name: "Blog", href: "https://blog.coupleofpatels.com/", current: false },
   { name: "Shop Like Us", href: "/shop-like-us", current: false },
   { name: "About", href: "/about", current: true },
   { name: "Contact", href: "/contact", current: false },
