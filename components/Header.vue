@@ -111,7 +111,7 @@ import {
 } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 const social = [
-  {
+{
     name: "Instagram",
     href: "https://instagram.com/coupleofpatels",
     src: "/instagram.svg",
@@ -122,9 +122,9 @@ const social = [
     src: "/youtube.svg",
   },
   {
-    name: "Pinterest",
-    href: "https://pinterest.com/coupleofpatels",
-    src: "/pinterest.svg",
+    name: "Email",
+    href: "mailto:coupleofpatels@gmail.com",
+    src: "/email.svg",
   }
 ];
 const navigation = [

@@ -8,7 +8,7 @@
     <Link rel="canonical" href="https://coupleofpatels.com/" />
     <Meta
       property="og:title"
-      content="Couple of Patels | Indian Adventure Travelers"
+      content="Couple of Patels | Jay + Himani"
     />
     <Meta
       property="og:description"
@@ -17,7 +17,7 @@
     <Meta property="og:url" content="https://coupleofpatels.com/" />
     <Meta
       property="twitter:title"
-      content="Couple of Patels | Indian Adventure Travelers"
+      content="Couple of Patels | Jay + Himani"
     />
     <Meta
       property="twitter:description"
@@ -34,9 +34,9 @@
       >
         <div class="md:mr-5">
           <div class="mx-auto">
-              <div class="prose sm:prose-lg">
-                <h1 class="tracking-tight">@coupleofpatels</h1>
-                <p class="leading-8 text-zinc-700 sm:max-w-lg">
+              <div class="prose prose-lg text-center md:text-start">
+                <h1 class="text-4xl tracking-tight -mb-0">coupleofpatels</h1>
+                <p class="leading-8 text-zinc-700 md:max-w-lg">
                   Hi there! We’re Jay and Himani, the content creators behind
                   <a
                     href="https://instagram.com/coupleofpatels"
@@ -45,18 +45,21 @@
                   >. You can find all our links and socials below!
                 </p>
               </div>
-              <div class="flex flex-1 space-x-4 items-center mt-5">
+              <div class="flex space-x-4 justify-center md:justify-start mt-5 mb-6">
                 <a v-for="item in social" :key="item.name" :href="item.href">
                   <img :src="item.src" class="h-7" />
                 </a>
               </div>
+              <a v-for="item in links" :key="item.name" :href="item.href" class = "inline-block w-[100%] rounded-xl bg-theme-dark text-base font-medium text-center text-white mb-4 py-4">
+                 {{item.name}}
+              </a>
             </div>
         </div>
-        <div class="items-start justify-end md:order-second">
+        <div class="items-start justify-end md:order-second -mt-10 md:mt-0">
           <img
             src="/tourism/witches-gulch.jpg"
             alt="witches gulch"
-            class="object-cover max-h-[600px] w-full rounded-xl shadow-xl"
+            class="object-cover max-h-[500px] md:max-h-[650px] w-full rounded-xl shadow-xl"
           />
         </div>
       </div>
@@ -77,24 +80,35 @@ const social = [
     src: "/youtube.svg",
   },
   {
-    name: "Blog",
+    name: "Email",
+    href: "mailto:coupleofpatels@gmail.com",
+    src: "/email.svg",
+  }
+];
+const links = [
+  {
+    name: "Mexico City Itinerary: 5-Day Travel Guide",
+    href: "https://blog.coupleofpatels.com/p/5-perfect-days-in-mexico-city-travel",
+  },
+  {
+    name: "Our Latest YouTube Video",
+    href: "https://youtu.be/aBjKbuGoFqY?si=7YfyP79m2hrP63l6",
+  },
+  {
+    name: "Detailed Itineraries & Travel Guides",
     href: "https://blog.coupleofpatels.com/",
-    src: "/blog.svg",
   },
   {
-    name: "Pinterest",
-    href: "https://pinterest.com/coupleofpatels",
-    src: "/pinterest.svg",
+    name: "Shop Our Favorites (Amazon Store)",
+    href: "https://www.amazon.com/shop/coupleofpatels",
   },
   {
-    name: "Amazon",
-    href: "https://amazon.com/shop/coupleofpatels",
-    src: "/amazon.svg",
+    name: "Shop Our LTK",
+    href: "https://www.shopltk.com/explore/coupleofpatels",
   },
   {
-    name: "LTK",
-    href: "https://shopltk.com/explore/coupleofpatels",
-    src: "/ltk.svg",
+    name: "Work With Us",
+    href: "/portfolio",
   }
 ];
 </script>
