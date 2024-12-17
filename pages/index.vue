@@ -35,8 +35,8 @@
         <div class="md:mr-5">
           <div class="mx-auto">
               <div class="prose prose-lg text-center md:text-start ">
-                <div class ="flex justify-center -mb-5 -mt-12 md:mb-0 md:mt-0"><img class="md:hidden size-16 rounded-full bg-gray-50" src="/logo.png" alt="" /></div>
-                <h1 class="text-4xl tracking-tight -mb-0">coupleofpatels</h1>
+                <div class ="flex justify-center -mb-5 -mt-10 md:mb-0 md:mt-0"><img class="md:hidden size-16 rounded-full bg-gray-50" src="/logo.png" alt="" /></div>
+                <h1 class="text-4xl tracking-tight -mb-2">coupleofpatels</h1>
                 <p class="leading-8 text-zinc-700 md:max-w-lg">
                   Hi there! We’re Jay and Himani, the content creators behind
                   <a
