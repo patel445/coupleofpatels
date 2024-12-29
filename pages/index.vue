@@ -33,8 +33,8 @@
         class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 md:mx-0 md:max-w-none md:grid-cols-2"
       >
         <div class="md:mr-5">
-          <div class="mx-auto">
-              <div class="prose prose-lg text-center md:text-start ">
+          <div class="mx-auto py-0 md:py-5">
+              <div class="prose prose-lg text-center md:text-start">
                 <div class ="flex justify-center -mb-5 -mt-9 md:mb-0 md:mt-0"><img class="md:hidden size-16 rounded-full bg-gray-50" src="/logo.png" alt="" /></div>
                 <h1 class="text-4xl tracking-tight -mb-2">coupleofpatels</h1>
                 <p class="leading-8 text-zinc-700 md:max-w-lg">
