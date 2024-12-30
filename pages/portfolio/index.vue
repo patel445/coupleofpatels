@@ -173,42 +173,6 @@
                     partnering with in the past.
                   </p>
                 </div>
-                <ul
-                  class="-mt-12 space-y-12 divide-y divide-zinc-200 xl:col-span-3"
-                >
-                  <li
-                    v-for="brand in brands"
-                    :key="brand.name"
-                    class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 pt-12"
-                  >
-                    <a :href="brand.link" target="_blank">
-                      <img
-                        class="rounded-2xl object-cover max-h-[325px] w-full h-full"
-                        :src="brand.imageUrl"
-                      />
-                    </a>
-                    <div class="flex-auto max-w-xl">
-                      <h3
-                        class="text-lg text-zinc-900 font-semibold leading-8 tracking-tight"
-                      >
-                        {{ brand.name }}
-                      </h3>
-                      <p class="text-base text-zinc-700 leading-7">
-                        {{ brand.description }}
-                      </p>
-                      <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
-                        {{ brand.bio }}
-                      </p>
-                      <a
-                        :href="brand.link"
-                        v-if="brand.link"
-                        target="_blank"
-                        class="inline-block text-15 font-semibold no-underline text-primary-hover"
-                        >View Work <span aria-hidden="true">→</span>
-                      </a>
-                    </div>
-                  </li>
-                </ul>
               </div>
             </section>
         <div class="max-w-custom-container mx-auto px-6 md:px-8 pb-8 md:pb-16">

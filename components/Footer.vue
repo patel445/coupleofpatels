@@ -19,8 +19,3 @@
     </div>
   </footer>
 </template>
-<script setup>
-import { useEmailSubscription } from "~/composables/useEmailSubscription";
-
-const { email, message, isSuccess, handleSubmit } = useEmailSubscription();
-</script>
