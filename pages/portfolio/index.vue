@@ -162,19 +162,6 @@
             </li>
           </ul>
         </section>
-        <section id="past-collabs">
-              <div
-                class="max-w-custom-container mx-auto px-6 md:px-8 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 xl:grid-cols-5"
-              >
-                <div class="xl:col-span-2 prose sm:prose-lg">
-                  <h2 class="tracking-tight">Past Collaborations</h2>
-                  <p class="leading-8">
-                    Check out some of the incredible brands we've had the pleasure of
-                    partnering with in the past.
-                  </p>
-                </div>
-              </div>
-            </section>
         <div class="max-w-custom-container mx-auto px-6 md:px-8 pb-8 md:pb-16">
           <InstagramCaro />
         </div>
