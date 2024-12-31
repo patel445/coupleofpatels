@@ -1,33 +1,30 @@
 <template>
-  <Head>
-    <Title>Couple of Patels | Experience Portfolio</Title>
+    <Head>
+    <Title>Couple of Patels | Stay Portfolio</Title>
     <Meta
       name="description"
-      content="We love using our platform to help businesses like yours gain more visibility and grow."
+      content="We love using our platform to help promote stays like yours gain more visibility and increased traffic."
     />
     <Link
       rel="canonical"
-      href="https://coupleofpatels.com/portfolio/experiences"
+      href="https://coupleofpatels.com/partnership/stays"
     />
-    <Meta
-      property="og:title"
-      content="Couple of Patels | Experience Portfolio"
-    />
+    <Meta property="og:title" content="Couple of Patels | Stay Portfolio" />
     <Meta
       property="og:description"
-      content="We love using our platform to help businesses like yours gain more visibility and grow."
+      content="We love using our platform to help promote stays like yours gain more visibility and increased traffic."
     />
     <Meta
       property="og:url"
-      content="https://coupleofpatels.com/portfolio/experiences"
+      content="https://coupleofpatels.com/partnership/stays"
     />
     <Meta
       property="twitter:title"
-      content="Couple of Patels | Experience Portfolio"
+      content="Couple of Patels | Stay Portfolio"
     />
     <Meta
       property="twitter:description"
-      content="We love using our platform to help businesses like yours gain more visibility and grow."
+      content="We love using our platform to help promote stays like yours gain more visibility and increased traffic."
     />
     <Metadata />
   </Head>
@@ -35,15 +32,18 @@
         <div class="container">
           <Header />
           <div class="space-y-20 md:space-y-32 py-8 md:py-20">
-            <div class="max-w-custom-container mx-auto px-6 md:px-8">
+            <div class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12">
               <div class="prose sm:prose-lg pb-12 md:pb-20">
-                <h1 class="tracking-tight">Experience Partnership</h1>
-                <p class="leading-8 text-zinc-700 sm:max-w-md">
-                   We’re Jay and Himani, the adventure travel content creators behind <a
+                <h1 class="tracking-tight">Stay Partnerships</h1>
+                <p class="leading-8 sm:max-w-3xl">
+                  We’re Jay and Himani, the adventure travel content creators behind <a
                     href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
-                  >, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers.
+                  >, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers. Interested in working together?
+                      Check out our work below to see what we do and how we
+                      could collaborate. Let's create something amazing
+                      together!
                 </p>
                 <div class="flex items-center gap-x-6 mt-8 md:mt-10">
                   <a
@@ -69,7 +69,7 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
-                    src="/experience/spray-paint.jpg"
+                    src="/stay/owl-house-shasta.jpg"
                   />
                 </div>
                 <div
@@ -77,7 +77,7 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
-                    src="/experience/shot-of-art-finished.jpg"
+                    src="/stay/mountainshadowsresort.jpg"
                   />
                 </div>
                 <div
@@ -85,7 +85,7 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover object-bottom"
-                    src="/experience/spin-art.jpg"
+                    src="/stay/owl-house.jpg"
                   />
                 </div>
                 <div
@@ -93,7 +93,7 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
-                    src="/experience/axe-throwing.jpg"
+                    src="/stay/neighborhood.jpg"
                   />
                 </div>
                 <div
@@ -101,53 +101,52 @@
                 >
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
-                    src="/experience/shot-of-art.jpg"
+                    src="/stay/stony-pool.jpg"
                   />
                 </div>
               </div>
             </section>
             <section id="past-collabs">
               <div
-                class="max-w-custom-container mx-auto px-6 md:px-8 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 xl:grid-cols-5"
+                class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 xl:grid-cols-5"
               >
                 <div class="xl:col-span-2 prose sm:prose-lg">
                   <h2 class="tracking-tight">Past Collaborations</h2>
-                  <p class="text-zinc-700 leading-8">
-                    Check out
-                    some of the incredible experiences we've had the pleasure of
+                  <p class="leading-8">
+                    Check out some of the incredible stays we've had the pleasure of
                     partnering with in the past.
                   </p>
                 </div>
                 <ul
-                  class="-mt-12 space-y-8 md:space-y-12 divide-y divide-zinc-200 xl:col-span-3"
+                  class="-mt-12 space-y-12 divide-y divide-zinc-200 xl:col-span-3"
                 >
                   <li
-                    v-for="experience in experiences"
-                    :key="experience.name"
-                    class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 pt-8 md:pt-12"
+                    v-for="stay in stays"
+                    :key="stay.name"
+                    class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 pt-12"
                   >
-                    <a :href="experience.link" target="_blank">
+                    <a :href="stay.link" target="_blank">
                       <img
                         class="rounded-2xl object-cover max-h-[325px] w-full h-full"
-                        :src="experience.imageUrl"
+                        :src="stay.imageUrl"
                       />
                     </a>
                     <div class="flex-auto max-w-xl">
                       <h3
                         class="text-lg text-zinc-900 font-semibold leading-8 tracking-tight"
                       >
-                        {{ experience.name }}
+                        {{ stay.name }}
                       </h3>
                       <p class="text-base text-zinc-700 leading-7">
-                        {{ experience.description }}
+                        {{ stay.description }}
                       </p>
                       <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
-                        {{ experience.bio }}
+                        {{ stay.bio }}
                       </p>
                       <a
-                        :href="experience.link"
+                        :href="stay.link"
                         target="_blank"
-                        class="inline-block text-15 font-semibold no-underline text-primary-hover"
+                        class="inline-block text-14 font-semibold no-underline text-primary-hover"
                         >View Work <span aria-hidden="true">→</span>
                       </a>
                     </div>
@@ -162,35 +161,41 @@
 </template>
 <script setup>
 
-const experiences = [
+const stays = [
   {
-    name: "Shot of Art",
-    description: "Arts & Fun",
-    imageUrl: "/experience/shot-of-art-finished.jpg",
-    bio: "Shot of Art, known for its private art experiences, boasts a following of over 143,000 on Instagram.",
-    link: "https://instagram.com/reel/C49LxFirSsJ/",
+    name: "Mountain Shadows Resort Scottsdale",
+    description: "Boutique Resort",
+    imageUrl: "/stay/mountainshadows.jpg",
+    bio: "Boutique luxury resort located just below Camelback Mountain with an 18-hole golf course",
+    link: "https://www.instagram.com/reel/DAE_-CjvzBC/",
   },
   {
-    name: "Spin Art Nation Chicago",
-    description: "Arts & entertainment",
-    imageUrl: "/experience/spin-art.jpg",
-    bio: "Spin Art Nation, a interactive art experience that combines paint, various canvases, and a spinning platform to create unique and dynamic artworks.",
-    link: "https://instagram.com/reel/CzkedyiLatf/",
+    name: "The Bunkies",
+    description: "Vacation Rental",
+    imageUrl: "/stay/bunkies.png",
+    bio: "Modern getaway just 90 minutes from Chicago and in a marina resort called Heritage Harbor",
+    link: "https://www.instagram.com/reel/C7VNxIqJ66K/",
   },
   {
-    name: "BullsEye Axe Throwing Lounge",
-    description: "Recreation Center",
-    imageUrl: "/experience/axe-throwing.jpg",
-    bio: "BullsEye Axe Throwing Lounge, Chicagoland’s premier axe throwing lounge.",
-    link: "https://instagram.com/reel/Cz9zP6Us8QT/",
+    name: "Owl House Airbnb",
+    description: "Airbnb",
+    imageUrl: "/stay/owl-house-shasta.jpg",
+    bio: "The Owl House, an airbnb with a vintage 1963 Shasta imbedded in a fully equipped home",
+    link: "https://instagram.com/reel/C4zJbTsLPVS/",
   },
   {
-    name: "Studio W.I.P",
-    description: "Arts & entertainment",
-    imageUrl: "/experience/spray-paint.jpg",
-    bio: "Studio W.I.P, the original Spray Paint and Sip, offers a unique street art experience in the studio.",
-    link: "https://instagram.com/reel/C0f0L3ug8Ml/",
+    name: "Stony Creek Peoria",
+    description: "Hotel",
+    imageUrl: "/stay/stonycreek.jpg",
+    bio: "Stony Creek, where you can expect an exceptionally personal home-away-from-home experience",
+    link: "https://instagram.com/reel/C1qWLBVry8E/",
+  },
+  {
+    name: "The Neighborhood Hotel®",
+    description: "Hotel",
+    imageUrl: "/stay/theneighborhood.jpg",
+    bio: "The Neighborhood Hotel, a home away from home where thoughtful design meets genuine comfort, is a home styled hotel",
+    link: "https://instagram.com/reel/C2Bhi4JL9T1/",
   },
 ];
-
 </script>

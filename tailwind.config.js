@@ -14,7 +14,7 @@ module.exports = {
     theme: {
       extend: {
         maxWidth: {
-          'custom-container': '1090px',
+          'custom-container': '1125px',
         },   
       },
     }

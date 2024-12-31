@@ -36,7 +36,7 @@
           aria-hidden="true"
         />
       </div>
-      <div class="relative max-w-custom-container mx-auto px-6 md:px-8 py-16">
+      <div class="relative lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-16">
         <div class="prose sm:prose-lg">
           <h1 class="text-white mb-0 sm:mb-0">Shop Like Us</h1>
           <p class="font-medium text-slate-100">
@@ -46,7 +46,7 @@
       </div>
     </div>
     <main
-      class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pt-16 md:pb-20"
+      class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 md:pt-16 md:pb-20"
     >
       <section class="relative -mt-20 md:-mt-28">
         <h2 class="sr-only">Shop Now</h2>
@@ -63,7 +63,7 @@
                 :href="link.href"
                 class="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-theme-dark p-5 shadow-lg"
               >
-                <img :src="link.image" class="h-6 hover:text-primary" />
+                <img :src="link.image" class="h-6 text-hover" />
               </a>
               <div class="prose sm:prose-lg">
                 <h3>

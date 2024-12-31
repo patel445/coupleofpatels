@@ -24,9 +24,9 @@
     <main>
       <div class="relative isolate">
         <div
-          class="max-w-custom-container mx-auto grid grid-cols-1 md:grid-cols-2"
+          class="lg:max-w-custom-container max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2"
         >
-          <div class="relative lg:static px-6 md:px-8 py-8 md:py-20">
+          <div class="relative lg:static px-4 sm:px-8 lg:px-12 py-8 md:py-20">
             <div
               class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden lg:w-1/2"
             >
@@ -91,7 +91,7 @@
               with all the specifics. We're looking forward to hearing from you!
             </p>
           </div>
-          <form method="POST" class="px-6 md:px-8 py-8 md:py-20">
+          <form method="POST" class="px-4 sm:px-8 lg:px-12 py-8 md:py-20">
             <div class="mx-auto">
               <div
                 class="elfsight-app-086d227a-e4a1-4668-ae02-023bcabc38ea"

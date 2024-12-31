@@ -1,18 +1,18 @@
 <template>
   <Head>
-    <Title>Couple of Patels | Portfolio</Title>
+    <Title>Couple of Patels | Partner With Us</Title>
     <Meta
       name="description"
       content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
-    <Link rel="canonical" href="https://coupleofpatels.com/portfolio" />
-    <Meta property="og:title" content="Couple of Patels | Portfolio" />
+    <Link rel="canonical" href="https://coupleofpatels.com/partnership" />
+    <Meta property="og:title" content="Couple of Patels | Partner With Us" />
     <Meta
       property="og:description"
       content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
-    <Meta property="og:url" content="https://coupleofpatels.com/portfolio" />
-    <Meta property="twitter:title" content="Couple of Patels | Portfolio" />
+    <Meta property="og:url" content="https://coupleofpatels.com/partnership" />
+    <Meta property="twitter:title" content="Couple of Patels | Partner With Us" />
     <Meta
       property="twitter:description"
       content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
@@ -34,7 +34,7 @@
               >
                 <polygon points="0,0 90,0 50,100 0,100" />
               </svg>
-              <div class="relative px-6 md:px-8 lg:px-0 xl:px-16 py-8 md:py-32">
+              <div class="relative px-4 sm:px-8 lg:px-12 lg:px-0 xl:px-16 py-8 md:py-32">
                 <div class="mx-auto lg:pl-12">
                   <div class="prose sm:prose-lg">
                     <h1 class="tracking-tight">Work With Us!</h1>
@@ -57,7 +57,7 @@
                     >
                     <a
                       href="#our-work"
-                      class="text-sm font-semibold leading-6 hover:text-primary"
+                      class="text-sm font-semibold leading-6 text-hover"
                       >Our Work <span aria-hidden="true">→</span></a
                     >
                   </div>
@@ -75,7 +75,7 @@
             </div>
           </div>
         </section>
-        <div class="max-w-custom-container mx-auto px-6 md:px-8">
+        <div class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12">
           <InstagramStats />
         </div>
         <section>
@@ -123,7 +123,7 @@
           </div>
         </section>
         <section
-          class="max-w-custom-container mx-auto px-6 md:px-8"
+          class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12"
           id="our-work"
         >
           <div class="mx-auto max-w-3xl lg:mx-0 prose sm:prose-lg">
@@ -154,7 +154,7 @@
               </a>
               <a :href="kit.url">
                 <h2
-                  class="mt-6 font-semibold font-semibold leading-6 hover:text-primary"
+                  class="mt-6 font-semibold font-semibold leading-6 text-hover"
                 >
                   {{ kit.name }} <span aria-hidden="true">→</span>
                 </h2>
@@ -162,7 +162,7 @@
             </li>
           </ul>
         </section>
-        <div class="max-w-custom-container mx-auto px-6 md:px-8 pb-8 md:pb-16">
+        <div class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 pb-8 md:pb-16">
           <InstagramCaro />
         </div>
       </main>

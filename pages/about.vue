@@ -21,7 +21,7 @@
   </Head>
   <div class="container">
     <Header />
-    <main class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:py-20">
+    <main class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 md:py-20">
       <div
         class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 md:mx-0 md:max-w-none md:grid-cols-2"
       >
@@ -63,7 +63,7 @@
             >
             <a
               href="https://instagram.com/coupleofpatels"
-              class="text-sm font-semibold leading-6 text-zinc-700 hover:text-primary"
+              class="text-sm font-semibold leading-6 text-zinc-700 text-hover"
               >Follow Us <span aria-hidden="true">→</span></a
             >
           </div>

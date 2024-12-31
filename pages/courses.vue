@@ -21,7 +21,7 @@
   </Head>
   <div class="container">
     <Header />
-    <main class="max-w-custom-container mx-auto px-6 md:px-8 py-8 md:pb-20">
+    <main class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 md:pb-20">
       <section>
         <div class="flex flex-col prose sm:prose-lg">
           <h1 class="font-bold tracking-tight">Our Courses</h1>

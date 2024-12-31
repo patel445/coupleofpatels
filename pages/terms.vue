@@ -31,7 +31,7 @@
   <div class="container">
     <Header />
     <main
-      class="max-w-4xl mx-auto px-6 md:px-8 py-8 md:pt-8 md:pb-16 prose sm:prose-lg"
+      class="max-w-4xl mx-auto px-4 sm:px-8 lg:px-12 py-8 md:pt-8 md:pb-16 prose sm:prose-lg"
     >
       <h1 class="tracking-tight">Terms & Privacy</h1>
       <h2>Introduction</h2>

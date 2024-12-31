@@ -4,13 +4,13 @@
     :style="{ width: percent }"
   ></div>
   <Popover
-    class="max-w-custom-container mx-auto px-6 md:px-8 py-2 lg:py-6 flex items-center justify-between top-0 z-30 shadow-md lg:shadow-none lg:relative sticky bg-white/95 lg:bg-transparent"
+    class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-2 lg:py-6 flex items-center justify-between top-0 z-30 lg:relative sticky bg-white/95 lg:bg-transparent"
   >
     <div class="flex lg:flex-1 justify-start">
       <a href="/" class="mt-1">
         <span class="sr-only">Couple of Patels</span>
         <img
-          class="h-8 md:h-9"
+          class="h-8 mt-1"
           src="/logosite.png"
           alt="couple of patels logo"
         />
@@ -27,13 +27,13 @@
     </div>
     <PopoverGroup
       as="nav"
-      class="hidden lg:flex px-6 py-2 space-x-8 rounded-full shadow-sm border border-zinc-200"
+      class="hidden lg:flex px-6 py-2 space-x-7 rounded-full flex rounded-full bg-white/90 px-3 text-sm font-medium shadow ring-1 ring-zinc-900/5 backdrop-blur"
     >
       <a
         v-for="item in navigation"
         :key="item.name"
         :href="item.href"
-        class="text-15 font-medium hover:text-primary "
+        class="text-14 font-medium text-hover active:text-primary"
         >{{ item.name }}</a
       >
     </PopoverGroup>
@@ -62,7 +62,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <img
-                  class="h-8 md:h-9 w-auto"
+                  class="h-8 w-auto"
                   src="/logosite.png"
                   alt="couple of patels logo"
                 />
@@ -84,7 +84,7 @@
                 v-for="item in navigation"
                 :key="item.name"
                 :href="item.href"
-                class="block py-3 pl-3 border-l-4 border-transparent text-17 font-medium hover:text-primary "
+                class="block py-3 pl-3 border-l-4 border-transparent text-17 font-medium active:text-primary text-hover "
                 >{{ item.name }}</a
               >
               <div
@@ -128,10 +128,10 @@ const social = [
   }
 ];
 const navigation = [
-  { name: "Portfolio", href: "/portfolio", current: false },
+  { name: "Partner With Us", href: "/partnership", current: false },
+  { name: "UGC", href: "/ugc", current: false },
   { name: "Blog", href: "https://blog.coupleofpatels.com/", current: false },
-  { name: "Shop Like Us", href: "/shop-like-us", current: false },
-  { name: "About", href: "/about", current: true },
+  { name: "Shop", href: "/shop-like-us", current: false },
   { name: "Contact", href: "/contact", current: false },
 ];
 </script>

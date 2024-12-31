@@ -3,7 +3,7 @@
     <div class="container">
       <Header />
       <div class="relative isolate">
-        <div class="max-w-custom-container mx-auto">
+        <div class="lg:max-w-custom-container max-w-3xl mx-auto">
           <div class="relative lg:static">
             <div
               class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden"
@@ -41,7 +41,7 @@
                 />
               </svg>
             </div>
-            <main class="px-6 md:px-8 py-20 md:py-28">
+            <main class="px-4 sm:px-8 lg:px-12 py-20 md:py-28">
               <div class="flex min-h-full flex-1 flex-col justify-center">
                 <div class="sm:mx-auto sm:w-full sm:max-w-[480px]">
                   <div
@@ -81,7 +81,7 @@
                   <p class="mt-10 text-center text-sm">
                     Why partner with us?
                     <a
-                      href="/portfolio"
+                      href="/partnership"
                       class="font-semibold leading-6 text-primary-hover"
                     >
                       Learn why now!</a
