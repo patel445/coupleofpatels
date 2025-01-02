@@ -1,1 +1,1 @@
-Jay & Himani's Couple of Patels Website
+Jay & Himani | Couple of Patels

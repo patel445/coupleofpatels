@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Couple of Patels | Jay + Himani </Title>
+    <Title>Couple of Patels | Jay + Himani</Title>
     <Meta
       name="description"
       content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
@@ -120,7 +120,7 @@ const links = [
     href: "https://www.shopltk.com/explore/coupleofpatels",
   },
   {
-    name: "Work With Us",
+    name: "Partner With Us",
     href: "/partnership",
   },
 ];
