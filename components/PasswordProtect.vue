@@ -81,7 +81,7 @@
                   <p class="mt-10 text-center text-sm">
                     Why partner with us?
                     <a
-                      href="/partnership"
+                      href="/partnerships"
                       class="font-semibold leading-6 text-primary-hover"
                     >
                       Learn why now!</a

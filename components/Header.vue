@@ -128,7 +128,7 @@ const social = [
   }
 ];
 const navigation = [
-  { name: "Partner With Us", href: "/partnership", current: false },
+  { name: "Partnerships", href: "/partnerships", current: false },
   { name: "UGC", href: "/ugc", current: false },
   { name: "Blog", href: "https://blog.coupleofpatels.com/", current: false },
   { name: "Shop", href: "/shop-like-us", current: false },

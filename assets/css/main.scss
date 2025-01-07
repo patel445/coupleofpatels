@@ -63,7 +63,7 @@ p, ul, li{
 .border-theme {
   border-color: var(--primary);
   &:hover {
-     border-color:var(--primary-dark);
+    background-color:var(--primary);
   }
 }
 

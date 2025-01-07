@@ -22,14 +22,14 @@
   <div class="sm:px-8 lg:px-16">
     <div class="container">
       <Header />
-      <main
-        class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:py-12"
+      <section
+        class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:py-10"
       >
         <div
           class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:grid-cols-2 mx-auto"
         >
-          <div class="lg:mr-5">
-            <div class="mx-auto py-0 lg:py-5">
+          <div class="lg:mr-6">
+            <div class="mx-auto">
               <div class="prose prose-lg text-center lg:text-start">
                 <div class="flex justify-center -mb-5 -mt-12 lg:mb-0 lg:mt-0">
                   <img
@@ -45,7 +45,7 @@
                     href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
                     >@coupleofpatels</a
-                  >. You can find all our links below. Let's Connect!
+                  >. Check out all our links below. Let's Connect!
                 </p>
               </div>
               <div
@@ -69,13 +69,13 @@
             class="hidden lg:flex items-start justify-end lg:order-second -mt-10 lg:mt-0"
           >
             <img
-              src="/tourism/witches-gulch.jpg"
-              alt="witches gulch"
-              class="object-cover max-h-[500px] lg:max-h-[650px] w-full rounded-xl shadow-xl"
+              src="/home/death-valley.jpg"
+              alt="biking"
+              class="object-cover max-h-[500px] lg:max-h-[675px] w-full rounded-xl shadow-xl"
             />
           </div>
         </div>
-      </main>
+      </section>
       <Footer />
     </div>
   </div>
@@ -120,8 +120,8 @@ const links = [
     href: "https://www.shopltk.com/explore/coupleofpatels",
   },
   {
-    name: "Partner With Us",
-    href: "/partnership",
+    name: "Work With Us",
+    href: "/partnerships",
   },
 ];
 </script>

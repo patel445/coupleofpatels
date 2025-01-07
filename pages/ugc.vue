@@ -1,17 +1,17 @@
 <template>
     <Head>
-      <Title>Couple of Patels | Partner With Us</Title>
+      <Title>Couple of Patels | UGC Services</Title>
       <Meta
         name="description"
         content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
       />
-      <Link rel="canonical" href="https://coupleofpatels.com/partnership" />
+      <Link rel="canonical" href="https://coupleofpatels.com/partnerships" />
       <Meta property="og:title" content="Couple of Patels | Partner With Us" />
       <Meta
         property="og:description"
         content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
       />
-      <Meta property="og:url" content="https://coupleofpatels.com/partnership" />
+      <Meta property="og:url" content="https://coupleofpatels.com/partnerships" />
       <Meta property="twitter:title" content="Couple of Patels | Partner With Us" />
       <Meta
         property="twitter:description"
