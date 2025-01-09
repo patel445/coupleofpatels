@@ -69,7 +69,7 @@
             class="hidden lg:flex items-start justify-end lg:order-second -mt-10 lg:mt-0"
           >
             <img
-              src="/home/death-valley.jpg"
+              src="/partner/death-valley.jpg"
               alt="biking"
               class="object-cover max-h-[500px] lg:max-h-[675px] w-full rounded-xl shadow-xl"
             />

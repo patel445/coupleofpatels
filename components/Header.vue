@@ -129,10 +129,10 @@ const social = [
 ];
 const navigation = [
   { name: "Partnerships", href: "/partnerships", current: false },
-  { name: "UGC", href: "/ugc", current: false },
+  { name: "Services", href: "/services", current: false },
   { name: "Blog", href: "https://blog.coupleofpatels.com/", current: false },
   { name: "Shop", href: "/shop-like-us", current: false },
-  { name: "Contact", href: "/contact", current: false },
+  { name: "Contact", href: "mailto:coupleofpatels@gmail.com", current: false },
 ];
 </script>
 <script>

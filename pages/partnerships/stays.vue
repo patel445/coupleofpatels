@@ -1,5 +1,5 @@
 <template>
-    <Head>
+  <Head>
     <Title>Couple of Patels | Stay Portfolio</Title>
     <Meta
       name="description"
@@ -28,139 +28,134 @@
     />
     <Metadata />
   </Head>
-      <div class="overflow-hidden">
-        <div class="container">
-          <Header />
-          <div class="space-y-20 md:space-y-32 py-8 md:py-20">
-            <div class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12">
-              <div class="prose sm:prose-lg pb-12 md:pb-20">
-                <h1 class="tracking-tight">Stay Partnerships</h1>
-                <p class="leading-8 sm:max-w-3xl">
-                  We’re Jay and Himani, the adventure travel content creators behind <a
-                    href="https://instagram.com/coupleofpatels"
-                    class="text-primary-hover no-underline"
-                    >@coupleofpatels</a
-                  >, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers. Interested in working together?
-                      Check out our work below to see what we do and how we
-                      could collaborate. Let's create something amazing
-                      together!
-                </p>
-                <div class="flex items-center gap-x-6 mt-8 md:mt-10">
-                  <a
-                    href="/contact"
-                    class="inline-block w-[50%] sm:w-[30%] rounded-md bg-theme-dark text-sm text-center text-white font-medium no-underline py-3"
-                    >Contact Us</a
-                  >
-                  <a
-                    href="#our-rates"
-                    class="inline-block text-sm text-center font-semibold no-underline"
-                    >Rate Sheet <span aria-hidden="true">→</span>
-                  </a>
-                </div>
+  <div class="overflow-hidden">
+    <div class="sm:px-8 lg:px-16">
+      <div class="container">
+        <Header />
+        <div class="space-y-20 lg:space-y-32 py-8 lg:py-20">
+          <div
+            class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12"
+          >
+            <div class="prose sm:prose-lg pb-12 lg:pb-20">
+              <h1 class="tracking-tight">Stay Partnerships</h1>
+              <p class="leading-8 sm:max-w-2xl">
+                We’re Jay and Himani, the adventure travel content creators
+                behind
+                <a
+                  href="https://instagram.com/coupleofpatels"
+                  class="text-primary-hover no-underline"
+                  >@coupleofpatels</a
+                >. We’re always on the lookout for incredible stays that resonate with our style and connect with our community. We’ve had great success showcasing unique stays, and we’d love the opportunity to make yours the go-to spot in the area!
+              </p>
+              <div class="flex items-center gap-x-6 mt-8 lg:mt-10">
+                <a
+                  href="/contact"
+                  class="inline-block w-[50%] sm:w-[30%] rounded-md bg-theme-dark text-sm text-center text-white font-medium no-underline py-3"
+                  >Contact Us</a
+                >
               </div>
-              <InstagramStats />
             </div>
-            <section>
-              <div
-                class="flex justify-center gap-5 sm:gap-8 -mb-4 sm:-mb-0 py-4"
-              >
-                <div
-                  class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden rotate-2"
-                >
-                  <img
-                    class="absolute inset-0 h-full w-full object-cover"
-                    src="/stay/owl-house-shasta.jpg"
-                  />
-                </div>
-                <div
-                  class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden -rotate-2"
-                >
-                  <img
-                    class="absolute inset-0 h-full w-full object-cover"
-                    src="/stay/mountainshadowsresort.jpg"
-                  />
-                </div>
-                <div
-                  class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden rotate-2"
-                >
-                  <img
-                    class="absolute inset-0 h-full w-full object-cover object-bottom"
-                    src="/stay/owl-house.jpg"
-                  />
-                </div>
-                <div
-                  class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden -rotate-2"
-                >
-                  <img
-                    class="absolute inset-0 h-full w-full object-cover"
-                    src="/stay/neighborhood.jpg"
-                  />
-                </div>
-                <div
-                  class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden rotate-2"
-                >
-                  <img
-                    class="absolute inset-0 h-full w-full object-cover"
-                    src="/stay/stony-pool.jpg"
-                  />
-                </div>
-              </div>
-            </section>
-            <section id="past-collabs">
-              <div
-                class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 xl:grid-cols-5"
-              >
-                <div class="xl:col-span-2 prose sm:prose-lg">
-                  <h2 class="tracking-tight">Past Collaborations</h2>
-                  <p class="leading-8">
-                    Check out some of the incredible stays we've had the pleasure of
-                    partnering with in the past.
-                  </p>
-                </div>
-                <ul
-                  class="-mt-12 space-y-12 divide-y divide-zinc-200 xl:col-span-3"
-                >
-                  <li
-                    v-for="stay in stays"
-                    :key="stay.name"
-                    class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 pt-12"
-                  >
-                    <a :href="stay.link" target="_blank">
-                      <img
-                        class="rounded-2xl object-cover max-h-[325px] w-full h-full"
-                        :src="stay.imageUrl"
-                      />
-                    </a>
-                    <div class="flex-auto max-w-xl">
-                      <h3
-                        class="text-lg text-zinc-900 font-semibold leading-8 tracking-tight"
-                      >
-                        {{ stay.name }}
-                      </h3>
-                      <p class="text-base text-zinc-700 leading-7">
-                        {{ stay.description }}
-                      </p>
-                      <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
-                        {{ stay.bio }}
-                      </p>
-                      <a
-                        :href="stay.link"
-                        target="_blank"
-                        class="inline-block text-14 font-semibold no-underline text-primary-hover"
-                        >View Work <span aria-hidden="true">→</span>
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </section>
+            <InstagramStats />
           </div>
-          <Footer />
+          <section>
+            <div class="flex justify-center gap-5 sm:gap-8 -mb-4 sm:-mb-0 py-4">
+              <div
+                class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden rotate-2"
+              >
+                <img
+                  class="absolute inset-0 h-full w-full object-cover"
+                  src="/stay/owl-house-shasta.jpg"
+                />
+              </div>
+              <div
+                class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden -rotate-2"
+              >
+                <img
+                  class="absolute inset-0 h-full w-full object-cover"
+                  src="/stay/mountainshadowsresort.jpg"
+                />
+              </div>
+              <div
+                class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden rotate-2"
+              >
+                <img
+                  class="absolute inset-0 h-full w-full object-cover object-bottom"
+                  src="/stay/owl-house.jpg"
+                />
+              </div>
+              <div
+                class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden -rotate-2"
+              >
+                <img
+                  class="absolute inset-0 h-full w-full object-cover"
+                  src="/stay/neighborhood.jpg"
+                />
+              </div>
+              <div
+                class="relative aspect-[9/10] w-44 sm:w-72 flex-none rounded-xl sm:rounded-2xl overflow-hidden rotate-2"
+              >
+                <img
+                  class="absolute inset-0 h-full w-full object-cover"
+                  src="/stay/stony-pool.jpg"
+                />
+              </div>
+            </div>
+          </section>
+          <section id="past-collabs">
+            <div
+              class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-2 xl:grid-cols-5"
+            >
+              <div class="xl:col-span-2 prose sm:prose-lg">
+                <h2 class="tracking-tight">Past Collaborations</h2>
+                <p class="leading-8">
+                  Check out some of the incredible stays we've had the pleasure
+                  of partnering with in the past.
+                </p>
+              </div>
+              <ul
+                class="-mt-12 space-y-12 divide-y divide-zinc-200 xl:col-span-3"
+              >
+                <li
+                  v-for="stay in stays"
+                  :key="stay.name"
+                  class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 pt-12"
+                >
+                  <a :href="stay.link" target="_blank">
+                    <img
+                      class="rounded-2xl object-cover max-h-[325px] w-full h-full"
+                      :src="stay.imageUrl"
+                    />
+                  </a>
+                  <div class="flex-auto max-w-xl">
+                    <h3
+                      class="text-lg text-zinc-900 font-semibold leading-8 tracking-tight"
+                    >
+                      {{ stay.name }}
+                    </h3>
+                    <p class="text-base text-zinc-700 leading-7">
+                      {{ stay.description }}
+                    </p>
+                    <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
+                      {{ stay.bio }}
+                    </p>
+                    <a
+                      :href="stay.link"
+                      target="_blank"
+                      class="inline-block text-14 font-semibold no-underline text-primary-hover"
+                      >View Work <span aria-hidden="true">→</span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
+        <Footer />
       </div>
+    </div>
+  </div>
 </template>
 <script setup>
-
 const stays = [
   {
     name: "Mountain Shadows Resort Scottsdale",
