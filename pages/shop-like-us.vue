@@ -37,7 +37,7 @@
           aria-hidden="true"
         />
       </div>
-      <div class="relative lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-16">
+      <div class="relative max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-16">
         <div class="prose sm:prose-lg">
           <h1 class="text-white mb-0 sm:mb-0">Shop Like Us</h1>
           <p class="font-medium text-slate-100">
@@ -47,7 +47,7 @@
       </div>
     </div>
     <main
-      class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:pt-16 lg:pb-20"
+      class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:pt-16 lg:pb-20"
     >
       <section class="relative -mt-20 lg:-mt-28">
         <h2 class="sr-only">Shop Now</h2>

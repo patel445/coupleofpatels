@@ -1,30 +1,24 @@
 <template>
   <Head>
-    <Title>Couple of Patels | Product Portfolio</Title>
+    <Title>Couple of Patels | Creative Services</Title>
     <Meta
       name="description"
-      content="We love using our platform to help businesses like yours increase sales and grow."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
-    <Link
-      rel="canonical"
-      href="https://coupleofpatels.com/partnerships/products"
-    />
-    <Meta property="og:title" content="Couple of Patels | Product Portfolio" />
+    <Link rel="canonical" href="https://coupleofpatels.com/creative" />
+    <Meta property="og:title" content="Couple of Patels | Creative Services" />
     <Meta
       property="og:description"
-      content="We love using our platform to help businesses like yours increase sales and grow."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
-    <Meta
-      property="og:url"
-      content="https://coupleofpatels.com/partnerships/products"
-    />
+    <Meta property="og:url" content="https://coupleofpatels.com/creative" />
     <Meta
       property="twitter:title"
-      content="Couple of Patels | Product Portfolio"
+      content="Couple of Patels | Creative Services"
     />
     <Meta
       property="twitter:description"
-      content="We love using our platform to help businesses like yours increase sales and grow."
+      content="We’re Jay and Himani, the adventure travel content creators behind @coupleofpatels, where we share everything from hikes and adventure sports to local spots, stays, and food with our amazing community of fellow adventure travel lovers."
     />
     <Metadata />
   </Head>
@@ -36,16 +30,12 @@
           <div
             class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12"
           >
-            <div class="prose sm:prose-lg pb-12 lg:pb-20">
-              <h1 class="tracking-tight">Product Partnerships</h1>
+            <div class="prose sm:prose-lg">
+              <h1 class="tracking-tight"> Hi, we're Jay & Himani</h1>
               <p class="leading-8 sm:max-w-2xl">
-                We’re Jay and Himani, the adventure travel content creators
-                behind
-                <a
-                  href="https://instagram.com/coupleofpatels"
-                  class="text-primary-hover no-underline"
-                  >@coupleofpatels</a
-                >. We’ve have worked with countless brands to show our audience how their products fit seamlessly into our lifestyle. Now, we’re excited to discover new brands that align with our story and values!
+                We love creating content for amazing brands to bring their visions to life! From photography and videography to drone shots, ad creation, and engaging storytelling – we do it all to help businesses grow and stand out.
+                <br><br>
+                Curious about what we can create together? Take a look below at some of the exciting projects we've worked on across various industries.
               </p>
               <div class="flex items-center gap-x-6 mt-8 lg:mt-10">
                 <a
@@ -55,7 +45,6 @@
                 >
               </div>
             </div>
-            <InstagramStats />
           </div>
           <section>
             <div class="flex justify-center gap-5 sm:gap-8 -mb-4 sm:-mb-0 py-4">
@@ -156,7 +145,6 @@
     </div>
   </div>
 </template>
-
 <script setup>
 const brands = [
   {
@@ -182,3 +170,4 @@ const brands = [
   },
 ];
 </script>
+

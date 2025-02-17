@@ -34,7 +34,7 @@
         <Header />
         <div class="space-y-20 lg:space-y-32 py-8 lg:py-20">
           <div
-            class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12"
+            class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12"
           >
             <div class="prose sm:prose-lg pb-12 lg:pb-20">
               <h1 class="tracking-tight">Stay Partnerships</h1>
@@ -103,7 +103,7 @@
           </section>
           <section id="past-collabs">
             <div
-              class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-2 xl:grid-cols-5"
+              class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-2 xl:grid-cols-5"
             >
               <div class="xl:col-span-2 prose sm:prose-lg">
                 <h2 class="tracking-tight">Past Collaborations</h2>

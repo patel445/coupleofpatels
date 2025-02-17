@@ -32,7 +32,7 @@
               <div class="overflow-hidden">
                 <div class="mx-auto px-4 sm:px-8 lg:px-12 pt-4 lg:pt-0">
                   <div
-                    class="lg:ml-4 lg:max-w-custom-container max-w-3xl mx-auto gap-x-10 lg:flex lg:max-w-none lg:items-center"
+                    class="md:ml-2 lg:ml-2 xl:ml-10 max-w-3xl lg:max-w-[1080px] mx-auto gap-x-10 lg:flex lg:max-w-none lg:items-center"
                   >
                     <div
                       class="relative w-full lg:max-w-lg lg:shrink-0 prose sm:prose-lg"
@@ -61,7 +61,7 @@
                         >
                         <a
                           href="#our-work"
-                          class="text-sm font-semibold leading-6 text-hover"
+                          class="text-sm font-semibold leading-6 text-hover no-underline"
                           >Our Work <span aria-hidden="true">→</span></a
                         >
                       </div>
@@ -136,13 +136,13 @@
             </div>
           </section>
           <div
-            class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12"
+            class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12"
           >
             <InstagramStats />
           </div>
 
           <section
-            class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 pb-12"
+            class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 pb-12"
             id="our-work"
           >
             <div class="mx-auto max-w-3xl lg:mx-0 prose sm:prose-lg">

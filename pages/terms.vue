@@ -31,7 +31,7 @@
   <div class="sm:px-8 lg:px-16">
     <div class="container">
       <Header />
-      <div class="mx-auto w-full py-8 lg:py-10">
+      <div class="mx-auto w-full py-8 lg:py-14">
         <div class="relative">
           <div class="mx-auto lg:max-w-5xl lg:px-12 xl:px-0">
             <div class="lg:relative">

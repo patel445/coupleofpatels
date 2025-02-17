@@ -22,8 +22,8 @@
   <div class="sm:px-8 lg:px-16">
     <div class="container">
       <Header />
-      <section
-        class="lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:py-10"
+      <main
+        class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:py-14"
       >
         <div
           class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:grid-cols-2 mx-auto"
@@ -75,7 +75,7 @@
             />
           </div>
         </div>
-      </section>
+      </main>
       <Footer />
     </div>
   </div>

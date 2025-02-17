@@ -1,21 +1,21 @@
 <template>
-  <footer>
-    <div
-      class="border-t lg:max-w-custom-container max-w-3xl mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:flex sm:items-center sm:justify-between"
-    >
-      <div class="mb-5 sm:mb-0 text-left">
-        <p class="text-14">&copy; 2024 COUPLE OF PATELS LLC</p>
-      </div>
-      <div class="flex sm:mt-0">
-        <div class="flex flex-1 space-x-4">
-          <a
-            href="/terms"
-            class="text-14 hover:text-[#BC9690]"
-          >
-            Terms & Privacy
-          </a>
+    <footer class = "border-t border-gray-100">
+      <div
+        class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:flex sm:items-center sm:justify-between"
+      >
+        <div class="mb-5 sm:mb-0 text-left">
+          <p class="text-14">&copy; 2024 COUPLE OF PATELS LLC</p>
+        </div>
+        <div class="flex sm:mt-0">
+          <div class="flex flex-1 space-x-4">
+            <a
+              href="/terms"
+              class="text-14 hover:text-[#BC9690]"
+            >
+              Terms & Privacy
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 </template>
