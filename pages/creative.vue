@@ -26,7 +26,7 @@
     <div class="sm:px-8 lg:px-16">
       <div class="container">
         <Header />
-        <div class="space-y-20 lg:space-y-32 py-8 lg:py-20">
+        <div class="space-y-20 lg:space-y-26 py-8 lg:py-20">
           <div
             class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12"
           >
