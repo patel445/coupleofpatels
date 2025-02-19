@@ -120,12 +120,12 @@
                   :key="brand.name"
                   class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 pt-12"
                 >
-                  <a :href="brand.link" target="_blank">
+                
                     <img
                       class="rounded-2xl object-cover max-h-[325px] w-full h-full"
                       :src="brand.imageUrl"
                     />
-                  </a>
+              
                   <div class="flex-auto max-w-xl">
                     <h3
                       class="text-lg text-zinc-900 font-semibold leading-8 tracking-tight"
@@ -138,13 +138,6 @@
                     <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
                       {{ brand.bio }}
                     </p>
-                    <a
-                      :href="brand.link"
-                      v-if="brand.link"
-                      target="_blank"
-                      class="inline-block text-14 font-semibold no-underline text-primary-hover"
-                      >View Work <span aria-hidden="true">→</span>
-                    </a>
                   </div>
                 </li>
               </ul>
@@ -159,26 +152,41 @@
 
 <script setup>
 const brands = [
+{
+    name: "Western Rise",
+    description: "Apparel",
+    imageUrl: "/product/westernrise.JPG",
+    bio: "Western Rise, a brand known for its versatile and performance-driven apparel, has a following of over 80,000 on Instagram."
+  },
+  {
+    name: "Arcade Belts",
+    description: "Belts",
+    imageUrl: "/product/arcadebelts.jpg",
+    bio: "Arcade Belts, a brand known for its durable and stretchy adventure belts, has a following of over 49,400 on Instagram."
+  },
+  {
+    name: "Aventon",
+    description: "Electric Bikes",
+    imageUrl: "/product/aventon1.png",
+    bio: "Aventon, a brand known for its high-performance e-bikes, has a following of over 131,000 on Instagram."
+  },
   {
     name: "Vessi",
     description: "Shoes & Apparel",
     imageUrl: "/product/vessi-close.jpg",
-    bio: "Vessi, a company known for its fully waterproof shoes and apparel, boasts a following of over 330,000 on Instagram.",
-    link: "https://instagram.com/p/C4ekEofr-dl/",
+    bio: "Vessi, a company known for its fully waterproof shoes and apparel, boasts a following of over 348,000 on Instagram."
   },
   {
     name: "Enjoy The Wood",
     description: "Wooden Map & Decor",
     imageUrl: "/product/enjoy-the-wood-pin.jpg",
-    bio: "Enjoy The Wood, a company specializing in wooden map decor for your home, has a following of over 415,000 on Instagram.",
-    link: "https://instagram.com/p/C4HbMSSrIDt/",
+    bio: "Enjoy The Wood, a brand known for its wooden map decor, has a following of over 466,000 on Instagram."
   },
   {
     name: "CamelBak",
     description: "Outdoor & Sporting Goods",
     imageUrl: "/product/camelbak.jpg",
-    bio: "CamelBak, renowned for its high-quality outdoor and sporting goods, is best known for its iconic hydration packs. With a following of over 164,000, the company continues to lead in innovative hydration solutions.",
-    link: "",
+    bio: "CamelBak, a brand known for its innovative hydration packs and outdoor gear, has a dedicated following of over 165,000 on Instagram."
   },
 ];
 </script>

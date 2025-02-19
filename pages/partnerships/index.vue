@@ -195,14 +195,14 @@ const mediakits = [
     url: "partnerships/tourism",
   },
   {
-    name: "Stay Partnerships",
-    imageUrl: "/stay/owl-house.jpg",
-    url: "partnerships/stays",
-  },
-  {
     name: "Product Partnerships",
     imageUrl: "/product/enjoy-the-wood-book.jpg",
     url: "partnerships/products",
+  },
+  {
+    name: "Stay Partnerships",
+    imageUrl: "/stay/owl-house.jpg",
+    url: "partnerships/stays",
   },
   {
     name: "Experience Partnerships",
