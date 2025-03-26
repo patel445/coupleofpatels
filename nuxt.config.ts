@@ -1,11 +1,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.scss"],
-  
+
   postcss: {
     plugins: {
-     '@tailwindcss/postcss': {},
-     autoprefixer: {}
+      '@tailwindcss/postcss': {},
+      autoprefixer: {}
     },
   },
 
@@ -16,4 +16,16 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2025-02-15",
+
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2956202931956867",
+          async: true,
+          crossorigin: "anonymous"
+        }
+      ]
+    }
+  }
 })
