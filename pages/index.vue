@@ -104,20 +104,16 @@ const links = [
     href: "https://blog.coupleofpatels.com/p/5-perfect-days-in-mexico-city-travel",
   },
   {
-    name: "Our Latest YouTube Video",
-    href: "https://youtu.be/aBjKbuGoFqY?si=7YfyP79m2hrP63l6",
+    name: "A Weekend in La Crosse, Wisconsin",
+    href: "https://www.youtube.com/watch?v=Lsyna0xdX0w",
   },
   {
     name: "Detailed Itineraries & Travel Guides",
     href: "https://blog.coupleofpatels.com/",
   },
   {
-    name: "Shop Our Favorites (Amazon Store)",
+    name: "Shop Like Us (Amazon Store)",
     href: "https://www.amazon.com/shop/coupleofpatels",
-  },
-  {
-    name: "Shop Our LTK",
-    href: "https://www.shopltk.com/explore/coupleofpatels",
   },
   {
     name: "Work With Us",
