@@ -36,11 +36,11 @@
           <div class="mx-auto lg:max-w-5xl lg:px-12 xl:px-0">
             <div class="lg:relative">
               <div class="mx-auto max-w-3xl px-4 sm:px-8 lg:px-12">
-                <a href="/">
+                 <a href="/">
                   <button
                     type="button"
                     aria-label="backtohomepage"
-                    class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
+                    class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition hover:bg-gray-100 hover:shadow-md hover:scale-105 focus:outline-none cursor-pointer lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
                   >
                     <svg
                       viewBox="0 0 16 16"
@@ -53,7 +53,7 @@
                         stroke-width="1.5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                      ></path>
+                      />
                     </svg>
                   </button>
                 </a>
