@@ -21,7 +21,7 @@
   </Head>
   <div class="container">
     <Header />
-    <main class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-8 md:py-20">
+    <main class=" mx-auto px-4 sm:px-8 lg:px-12 py-8 md:py-20">
       <div
         class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 md:mx-0 md:max-w-none md:grid-cols-2"
       >

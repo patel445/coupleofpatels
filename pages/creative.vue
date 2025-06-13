@@ -28,7 +28,7 @@
         <Header />
         <div class="space-y-20 lg:space-y-26 py-8 lg:py-20">
           <div
-            class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12"
+            class=" mx-auto px-4 sm:px-8 lg:px-12"
           >
             <div class="prose sm:prose-lg">
               <h1 class="tracking-tight"> Hi, we're Jay & Himani</h1>
@@ -92,7 +92,7 @@
           </section>
           <section id="past-collabs">
             <div
-              class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-2 xl:grid-cols-5"
+              class=" mx-auto px-4 sm:px-8 lg:px-12 grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-2 xl:grid-cols-5"
             >
               <div class="xl:col-span-2 prose sm:prose-lg">
                 <h2 class="tracking-tight">Past Collaborations</h2>

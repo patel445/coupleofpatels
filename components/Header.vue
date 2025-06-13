@@ -4,7 +4,7 @@
     :style="{ width: percent }"
   ></div>
   <Popover
-    class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-2 lg:py-4 flex items-center justify-between top-0 z-30 lg:relative sticky bg-white/95 lg:bg-transparent"
+    class=" mx-auto px-4 sm:px-8 lg:px-12 py-2 lg:py-4 flex items-center justify-between top-0 z-30 lg:relative sticky bg-white/95 lg:bg-transparent"
   >
     <div class="flex lg:flex-1 justify-start">
       <a href="/" class="mt-1">

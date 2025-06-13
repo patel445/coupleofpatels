@@ -1,7 +1,7 @@
 <template>
     <footer class = "border-t border-gray-100">
       <div
-        class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:flex sm:items-center sm:justify-between"
+        class=" mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:flex sm:items-center sm:justify-between"
       >
         <div class="mb-5 sm:mb-0 text-left">
           <p class="text-14">&copy; 2024 COUPLE OF PATELS LLC</p>

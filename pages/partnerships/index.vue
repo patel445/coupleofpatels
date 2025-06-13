@@ -32,7 +32,7 @@
               <div class="overflow-hidden">
                 <div class="mx-auto px-4 sm:px-8 lg:px-12 pt-4 lg:pt-0">
                   <div
-                    class="md:ml-2 lg:ml-2 xl:ml-10 max-w-3xl lg:max-w-[1080px] mx-auto gap-x-10 lg:flex lg:max-w-none lg:items-center"
+                    class="md:ml-2 lg:ml-2 xl:ml-10  mx-auto gap-x-10 lg:flex lg:max-w-none lg:items-center"
                   >
                     <div
                       class="relative w-full lg:max-w-lg lg:shrink-0 prose sm:prose-lg"
@@ -136,13 +136,13 @@
             </div>
           </section>
           <div
-            class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12"
+            class=" mx-auto px-4 sm:px-8 lg:px-12"
           >
             <InstagramStats />
           </div>
 
           <section
-            class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 pb-12"
+            class=" mx-auto px-4 sm:px-8 lg:px-12 pb-12"
             id="our-work"
           >
             <div class="mx-auto max-w-3xl lg:mx-0 prose sm:prose-lg">

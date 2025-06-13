@@ -22,32 +22,37 @@
   <div class="sm:px-8 lg:px-16">
     <div class="container">
       <Header />
-      <main
-        class="max-w-3xl lg:max-w-[1080px] mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:py-14"
-      >
+      <main class="mx-auto px-4 sm:px-8 lg:px-12 py-8 lg:py-14">
         <div
           class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:grid-cols-2 mx-auto"
         >
           <div class="lg:mr-6">
             <div class="mx-auto">
-              <div class="prose prose-lg text-center lg:text-start">
-                <div class="flex justify-center -mb-5 -mt-12 lg:mb-0 lg:mt-0">
+              <div
+                class="prose prose-lg text-center lg:text-left max-w-xl mx-auto lg:mx-0"
+              >
+                <div
+                  class="flex justify-center lg:justify-start -mb-5 -mt-12 lg:mb-0 lg:mt-0"
+                >
                   <img
                     class="lg:hidden size-16 rounded-full bg-gray-50"
                     src="/logo.png"
-                    alt=""
+                    alt="Jay & Himani"
                   />
                 </div>
-                <h1 class="text-4xl tracking-tight -mb-2">Jay & Himani</h1>
-                <p class="leading-8 text-zinc-700 mx-auto max-w-xl lg:max-w-lg">
-                 Hi there! We’re the Midwest-based adventure travel creators behind the brand
+                <h1 class="text-4xl tracking-tight mb-2">Jay & Himani</h1>
+                <p class="leading-8 text-zinc-700">
+                  Hi there! We’re the Midwest-based adventure travel creators
+                  behind the brand
                   <a
                     href="https://instagram.com/coupleofpatels"
                     class="text-primary-hover no-underline"
-                    >@coupleofpatels</a
+                  >
+                    @coupleofpatels </a
                   >. Let's Connect!
                 </p>
               </div>
+
               <div
                 class="flex space-x-4 justify-center lg:justify-start mt-5 mb-7"
               >
