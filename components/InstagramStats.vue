@@ -22,9 +22,9 @@
 </template>
 <script setup>
 const stats = [
-  { id: 1, name: "Instagram Followers", value: "34,000" },
-  { id: 2, name: "Facebook Followers", value: "21,000" },
+  { id: 1, name: "Instagram Followers", value: "37,700" },
+  { id: 2, name: "Facebook Followers", value: "52,000" },
   { id: 4, name: "Engagement", value: "7%" },
-  { id: 3, name: "Past Collabs", value: "55" },
+  { id: 3, name: "Past Collabs", value: "60" },
 ];
 </script>
