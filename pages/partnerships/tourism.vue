@@ -92,7 +92,7 @@
               >
                 <img
                   class="absolute inset-0 h-full w-full object-cover"
-                  src="/tourism/nauvoo.jpg"
+                  src="/tourism/nauvoo.JPG"
                 />
               </div>
               <div
@@ -205,7 +205,7 @@ const places = [
   {
     name: "Nauvoo, Illinois",
     description: "@beautiful.nauvoo",
-    imageUrl: "/tourism/nauvoo-2.jpg",
+    imageUrl: "/tourism/nauvoo-2.JPG",
     link: "https://www.instagram.com/reel/DIxIsaavJAQ/",
   },
    {
