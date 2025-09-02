@@ -159,8 +159,8 @@
             class="hidden lg:flex items-start justify-end lg:order-second -mt-10 lg:mt-0"
           >
             <img
-              src="/partner/death-valley.jpg"
-              alt="biking"
+              src="/tourism/zipline.jpg"
+              alt="zipline course"
               class="object-cover max-h-[500px] lg:max-h-[675px] w-full rounded-xl shadow-xl"
             />
           </div>
