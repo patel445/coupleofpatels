@@ -93,7 +93,22 @@
                     />
                   </svg>
                 </a>
-
+                <a
+                  class="group flex text-sm font-medium transition hover:text-[#d1aba0]"
+                  target="_blank"
+                  href="https://www.tiktok.com/@coupleofpatels"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    class="mt-1 h-7 w-7 flex-none transition group-hover:fill-[#d1aba0]"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 2.04c0-.563.456-1.02 1.02-1.02h2.54a.51.51 0 0 1 .51.51c.01 1.08.36 2.08.97 2.87.61.79 1.47 1.35 2.44 1.57a.51.51 0 0 1 .4.5v2.63a.51.51 0 0 1-.61.5c-1.37-.27-2.64-.87-3.65-1.74v7.77c0 2.96-2.4 5.36-5.36 5.36S5.12 19.54 5.12 16.58c0-2.77 2.11-5.06 4.83-5.33.29-.03.59-.05.89-.05.34 0 .62.27.62.61v2.44c0 .34-.27.61-.61.61h-.08c-.95 0-1.72.77-1.72 1.72s.77 1.72 1.72 1.72c.95 0 1.72-.77 1.72-1.72V2.04Z"
+                    />
+                  </svg>
+                </a>
                 <!-- YouTube -->
                 <a
                   class="group flex text-sm font-medium transition hover:text-[#d1aba0]"

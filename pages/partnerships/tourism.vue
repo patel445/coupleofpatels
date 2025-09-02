@@ -76,7 +76,7 @@
               >
                 <img
                   class="absolute inset-0 h-full w-full object-cover"
-                  src="/tourism/frankenmuth.jpg"
+                  src="/tourism/kzoo.jpg"
                 />
               </div>
               <div
@@ -84,7 +84,7 @@
               >
                 <img
                   class="absolute inset-0 h-full w-full object-cover object-bottom"
-                  src="/tourism/lacrossedowntown.jpg"
+                  src="/tourism/oregon-illinois.jpg"
                 />
               </div>
               <div
@@ -92,7 +92,7 @@
               >
                 <img
                   class="absolute inset-0 h-full w-full object-cover"
-                  src="/tourism/lacrosse-shrine.jpg"
+                  src="/tourism/nauvoo.jpg"
                 />
               </div>
               <div
@@ -117,7 +117,7 @@
                 </p>
               </div>
               <ul
-                class="-mt-12 space-y-12 divide-y divide-zinc-200 xl:col-span-3"
+                class="-mt-12 space-y-12 xl:col-span-3"
               >
                 <li
                   v-for="place in places"
@@ -139,9 +139,6 @@
                     <p class="text-base text-zinc-700 leading-7">
                       {{ place.description }}
                     </p>
-                    <p class="mt-6 mb-4 text-base text-zinc-700 leading-7">
-                      {{ place.bio }}
-                    </p>
                     <a
                       :href="place.link"
                       v-if="place.link"
@@ -162,26 +159,60 @@
 </template>
 <script setup>
 const places = [
-  {
+   {
+    name: "Illinois",
+    description: "@enjoyillinois",
+    imageUrl: "/tourism/southern-illinois.jpg",
+    link: "https://www.instagram.com/reel/DLI54mgP59k/"
+    },
+     {
+    name: "Southwest Michigan",
+    description: "@swmichigan",
+    imageUrl: "/tourism/southwest-michigan.jpg",
+    link: "https://www.instagram.com/reel/DJuFbg0xNL3/",
+  },
+     {
+    name: "North Dakota",
+    description: "@northdakotalegendary",
+    imageUrl: "/tourism/north-dakota.jpg",
+    link: "https://www.instagram.com/reel/DL50_HdvfHK/",
+  },
+   {
     name: "La Crosse, Wisconsin",
     description: "@explorelacrosse",
-    imageUrl: "/tourism/viewsfromgrandad.jpg",
-    bio: "We partnered with the La Crosse Tourism Board on an exciting fall project to promote adventure-based tourism in the region!",
+    imageUrl: "/tourism/lacrosse-shrine.jpg",
     link: "https://www.instagram.com/reel/DBKbHY7vvj_/",
+  }
+  ,
+  {
+    name: "Oregon, Illinois",
+    description: "@visitoregonil",
+    imageUrl: "/tourism/oregon-illinois.jpg",
+    link: "https://www.instagram.com/reel/DKxhObRPfcW/",
   },
   {
-    name: "Dublin, Ohio",
-    description: "@visitdublinohio",
-    imageUrl: "/tourism/dublin.jpg",
-    bio: "In collaboration with @visitdublinohio, we made a reel that brings Galena’s charm to life, highlighting all the must-sees and hidden gems it has to offer!",
-    link: "https://www.instagram.com/reel/C51dQjBvZJC/",
+    name: "Kalamazoo, Michigan",
+    description: "@discoverkzoo",
+    imageUrl: "/tourism/kzoo.jpg",
+    link: "https://www.instagram.com/p/DN8oCcBjhbg/",
   },
   {
-    name: "Galena, Illinois",
-    description: "@visitgalena",
-    imageUrl: "/tourism/galena-downtown.jpg",
-    bio: "Proud to collaborate with @visitgalena in capturing the best of this beautiful town! Our reel is a guide to all things Galena.",
-    link: "https://www.instagram.com/reel/CzaNHHJrj-i/",
+    name: "Eua Claire, Wisconsin",
+    description: "@visiteauclaire",
+    imageUrl: "/tourism/eau-claire.png",
+    link: "https://www.instagram.com/reel/DFI6zbDvXBm/",
   },
+  {
+    name: "Nauvoo, Illinois",
+    description: "@beautiful.nauvoo",
+    imageUrl: "/tourism/nauvoo-2.jpg",
+    link: "https://www.instagram.com/reel/DIxIsaavJAQ/",
+  },
+   {
+    name: "Festival Country, Indiana",
+    description: "@festcounntryin",
+    imageUrl: "/tourism/festival-country.jpg",
+    link: "https://www.instagram.com/reel/DMgawjuvR8K/",
+  }
 ];
 </script>
