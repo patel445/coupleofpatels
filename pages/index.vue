@@ -184,6 +184,10 @@
 </template>
 <script setup>
 const links = [
+    {
+    name: "Shop Our Favorites (Amazon Store)",
+    href: "https://shop.coupleofpatels.com",
+  },
   {
     name: "Mexico City Itinerary: 5-Day Travel Guide",
     href: "https://blog.coupleofpatels.com/p/5-perfect-days-in-mexico-city-travel",
@@ -195,10 +199,6 @@ const links = [
   {
     name: "Detailed Itineraries & Travel Guides",
     href: "https://blog.coupleofpatels.com/",
-  },
-  {
-    name: "Shop Like Us (Amazon Store)",
-    href: "https://shop.coupleofpatels.com",
   },
   {
     name: "Work With Us",

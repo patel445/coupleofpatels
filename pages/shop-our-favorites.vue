@@ -1,20 +1,20 @@
 <template>
   <Head>
-    <Title>Couple of Patels | Shop Like Us</Title>
+    <Title>Couple of Patels | Shop Our Favorites</Title>
     <Meta
       name="description"
       content="Shop all the items we love and use daily."
     />
-    <Link rel="canonical" href="https://coupleofpatels.com/shop-like-us" />
-    <Meta property="og:title" content="Couple of Patels | Shop Like Us" />
+    <Link rel="canonical" href="https://coupleofpatels.com/shop-our-favorites" />
+    <Meta property="og:title" content="Couple of Patels | Shop Our Favorites" />
     <Meta
       property="og:description"
       content="Shop all the items we love and use daily."
     />
-    <Meta property="og:url" content="https://coupleofpatels.com/shop-like-us" />
+    <Meta property="og:url" content="https://coupleofpatels.com/shop-our-favorites" />
     <Meta
       property="twitter:title"
-      content="Couple of Patels | Shop Like Us"
+      content="Couple of Patels | Shop Our Favorites"
     />
     <Meta
       property="twitter:description"
@@ -39,7 +39,7 @@
       </div>
       <div class="relative  mx-auto px-4 sm:px-8 lg:px-12 py-16">
         <div class="prose sm:prose-lg">
-          <h1 class="text-white mb-0 sm:mb-0">Shop Like Us</h1>
+          <h1 class="text-white mb-0 sm:mb-0">Shop Our Favorites</h1>
           <p class="font-medium text-slate-100">
             Shop all the items we love and use daily.
           </p>

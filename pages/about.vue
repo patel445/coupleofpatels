@@ -57,9 +57,9 @@
           </div>
           <div class="mt-8 md:mt-10 flex items-center gap-x-6">
             <a
-              href="/shop-like-us"
+              href="/shop-our-favorites"
               class="inline-block w-[50%] sm:w-[40%] rounded-md bg-theme-dark text-sm font-medium text-center text-white py-3"
-              >Shop Like Us</a
+              >Shop Our Favorites</a
             >
             <a
               href="https://instagram.com/coupleofpatels"
