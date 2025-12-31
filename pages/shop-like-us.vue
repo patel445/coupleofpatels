@@ -93,7 +93,7 @@
 const shoppingLinks = [
   {
     name: "Amazon Store",
-    href: "https://amazon.com/shop/coupleofpatels",
+    href: "shop.coupleofpatels.com",
     description:
       "Shop the items we use every day, like our travel essentials and photography gear",
     image: "/amazon.svg",

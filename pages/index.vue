@@ -56,6 +56,18 @@
               <div
                 class="flex space-x-4 justify-center lg:justify-start mt-5 mb-7"
               >
+    
+                <a
+                  class="group flex text-sm font-medium transition hover:text-[#d1aba0]"
+                  target="_blank"
+                  href="https://shop.coupleofpatels.com"
+                >
+                  <img
+                    src="/amazon.svg"
+                    alt="Amazon"
+                    class="mt-1 h-6 w-6 flex-none transition group-hover:opacity-80"
+                  />
+                </a>
                 <!-- Instagram -->
                 <a
                   class="group flex text-sm font-medium transition hover:text-[#d1aba0]"
@@ -186,7 +198,7 @@ const links = [
   },
   {
     name: "Shop Like Us (Amazon Store)",
-    href: "https://www.amazon.com/shop/coupleofpatels",
+    href: "https://shop.coupleofpatels.com",
   },
   {
     name: "Work With Us",
