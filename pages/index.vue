@@ -184,17 +184,17 @@
 </template>
 <script setup>
 const links = [
-    {
+  {
+    name: "Book Our Go-To Stays",
+    href: "https://creators.withairbnb.com/mypage/coupleofpatels",
+  },
+  {
     name: "Shop Our Favorites (Amazon Store)",
     href: "https://shop.coupleofpatels.com",
   },
   {
     name: "Mexico City Itinerary: 5-Day Travel Guide",
     href: "https://blog.coupleofpatels.com/p/5-perfect-days-in-mexico-city-travel",
-  },
-  {
-    name: "A Weekend in La Crosse, Wisconsin",
-    href: "https://www.youtube.com/watch?v=Lsyna0xdX0w",
   },
   {
     name: "Detailed Itineraries & Travel Guides",
